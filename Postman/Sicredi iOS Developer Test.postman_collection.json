@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "55378ee0-c8d5-4db9-ba7d-40479f566f73",
+		"name": "Sicredi iOS Developer Test",
+		"description": "Request collection for the Sicredi iOS Developer Test app.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Events",
+			"item": [
+				{
+					"name": "Get All Events",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URL}}/events",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"events"
+							]
+						},
+						"description": "Returns all available events."
+					},
+					"response": []
+				},
+				{
+					"name": "Get Single",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URL}}/events/{{EVENT_ID}}",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"events",
+								"{{EVENT_ID}}"
+							]
+						},
+						"description": "Returns a single event by its ID."
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Checkin",
+			"item": [
+				{
+					"name": "Check Into Event",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "Checks user into event"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "a9e6fa00-2de3-4a5f-b9f3-78ca87e133f9",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "df5d16ec-258d-492b-9290-6363278301cc",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "33875833-3e19-489e-9b79-2c1b9ac72e80",
+			"key": "EVENT_ID",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"id": "aec47881-693e-4d22-845e-493cc9aaa8c1",
+			"key": "API_URL",
+			"value": "http://5b840ba5db24a100142dcd8c.mockapi.io/api",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
