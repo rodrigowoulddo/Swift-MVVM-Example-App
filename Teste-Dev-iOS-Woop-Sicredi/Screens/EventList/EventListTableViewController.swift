@@ -20,6 +20,7 @@ class EventListTableViewController: UITableViewController {
         
         setUpTableView()
         setupSearchBar()
+        setUpRefreshControl()
         setupViewModel()
     }
     
@@ -38,6 +39,16 @@ class EventListTableViewController: UITableViewController {
     private func setupSearchBar() {
         navigationItem.searchController = UISearchController.defaultSearchController(searchBarDelegate: self, textFieldDelegate: self)
     }
+    
+    private func setUpRefreshControl() {
+        self.refreshControl?.addTarget(self, action: #selector(handleRefresh), for: UIControl.Event.valueChanged)
+
+    }
+    
+    // MARK: - Private Methods
+    @objc private func handleRefresh() {
+        viewModel.fetchEvents()
+    }
 }
 
 
@@ -49,6 +60,9 @@ extension EventListTableViewController: EventListViewModelDelegate {
         DispatchQueue.main.async {
             self.tableView.reloadData()
         }
+        
+        /// In case the list was updated by a pull-refresh
+        refreshControl?.endRefreshing()
     }
     
     func didFailedToLoadEvents(errorTitle: String, errorDescription: String) {
