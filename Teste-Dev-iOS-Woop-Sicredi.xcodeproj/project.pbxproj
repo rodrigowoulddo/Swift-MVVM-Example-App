@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		75653DFC249291450029CCF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653DFB249291450029CCF2 /* AppDelegate.swift */; };
 		75653DFE249291450029CCF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653DFD249291450029CCF2 /* SceneDelegate.swift */; };
-		75653E00249291450029CCF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653DFF249291450029CCF2 /* ViewController.swift */; };
+		75653E00249291450029CCF2 /* EventListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653DFF249291450029CCF2 /* EventListTableViewController.swift */; };
 		75653E03249291450029CCF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75653E01249291450029CCF2 /* Main.storyboard */; };
 		75653E05249291480029CCF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75653E04249291480029CCF2 /* Assets.xcassets */; };
 		75653E08249291480029CCF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75653E06249291480029CCF2 /* LaunchScreen.storyboard */; };
@@ -28,6 +28,10 @@
 		75E45D1C2492D025002CCA92 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D1B2492D025002CCA92 /* Event.swift */; };
 		75E45D1E2492D09D002CCA92 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D1D2492D09D002CCA92 /* Person.swift */; };
 		75E45D202492D0D3002CCA92 /* Cupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D1F2492D0D3002CCA92 /* Cupon.swift */; };
+		75E45D232492D269002CCA92 /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D222492D269002CCA92 /* EventListViewModel.swift */; };
+		75E45D2A2492DA9B002CCA92 /* UISearchController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D292492DA9B002CCA92 /* UISearchController+Extensions.swift */; };
+		75E45D2C2492E04A002CCA92 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D2B2492E04A002CCA92 /* String+Extensions.swift */; };
+		75E45D2E2492E2AB002CCA92 /* EventFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D2D2492E2AB002CCA92 /* EventFilterTests.swift */; };
 		A05715BFC9159424F40873A7 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C77FEE1F937D0ECB1568B2 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework */; };
 		FAC38DEE4C5C94D27538BA1D /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B0EE68A0C85F88AFD3DAD7 /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework */; };
 /* End PBXBuildFile section */
@@ -50,7 +54,7 @@
 		75653DF8249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teste-Dev-iOS-Woop-Sicredi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75653DFB249291450029CCF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75653DFD249291450029CCF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75653DFF249291450029CCF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75653DFF249291450029CCF2 /* EventListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListTableViewController.swift; sourceTree = "<group>"; };
 		75653E02249291450029CCF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75653E04249291480029CCF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75653E07249291480029CCF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,6 +76,10 @@
 		75E45D1B2492D025002CCA92 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		75E45D1D2492D09D002CCA92 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		75E45D1F2492D0D3002CCA92 /* Cupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cupon.swift; sourceTree = "<group>"; };
+		75E45D222492D269002CCA92 /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
+		75E45D292492DA9B002CCA92 /* UISearchController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchController+Extensions.swift"; sourceTree = "<group>"; };
+		75E45D2B2492E04A002CCA92 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		75E45D2D2492E2AB002CCA92 /* EventFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFilterTests.swift; sourceTree = "<group>"; };
 		77B0EE68A0C85F88AFD3DAD7 /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_Dev_iOS_Woop_SicrediTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C77FEE1F937D0ECB1568B2 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_Dev_iOS_Woop_Sicredi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -139,6 +147,7 @@
 		75653DFA249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */ = {
 			isa = PBXGroup;
 			children = (
+				75E45D282492DA8A002CCA92 /* Extensions */,
 				75E45CFB2492BCE9002CCA92 /* Networking */,
 				75653E202492B3550029CCF2 /* App */,
 				75653E1E2492B33A0029CCF2 /* Screens */,
@@ -152,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */,
+				75E45D2D2492E2AB002CCA92 /* EventFilterTests.swift */,
 				75653E14249291480029CCF2 /* Info.plist */,
 			);
 			path = "Teste-Dev-iOS-Woop-SicrediTests";
@@ -171,7 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				75653E212492B3AA0029CCF2 /* Views */,
-				75653DFF249291450029CCF2 /* ViewController.swift */,
+				75E45D212492D24C002CCA92 /* EventList */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -243,6 +253,24 @@
 				75E45D192492CD6D002CCA92 /* CheckinModels.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		75E45D212492D24C002CCA92 /* EventList */ = {
+			isa = PBXGroup;
+			children = (
+				75653DFF249291450029CCF2 /* EventListTableViewController.swift */,
+				75E45D222492D269002CCA92 /* EventListViewModel.swift */,
+			);
+			path = EventList;
+			sourceTree = "<group>";
+		};
+		75E45D282492DA8A002CCA92 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				75E45D292492DA9B002CCA92 /* UISearchController+Extensions.swift */,
+				75E45D2B2492E04A002CCA92 /* String+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,21 +441,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E45D2C2492E04A002CCA92 /* String+Extensions.swift in Sources */,
 				75E45D202492D0D3002CCA92 /* Cupon.swift in Sources */,
 				75E45D0D2492BCE9002CCA92 /* API.swift in Sources */,
 				75E45D102492BD49002CCA92 /* EventEndpoints.swift in Sources */,
-				75653E00249291450029CCF2 /* ViewController.swift in Sources */,
+				75653E00249291450029CCF2 /* EventListTableViewController.swift in Sources */,
 				75E45D0B2492BCE9002CCA92 /* JSONEncoder+Extensions.swift in Sources */,
 				75E45D1C2492D025002CCA92 /* Event.swift in Sources */,
 				75E45D062492BCE9002CCA92 /* ApiError.swift in Sources */,
 				75E45D072492BCE9002CCA92 /* Service.swift in Sources */,
 				75E45D0C2492BCE9002CCA92 /* JSONDecoder+Extensionas.swift in Sources */,
+				75E45D2A2492DA9B002CCA92 /* UISearchController+Extensions.swift in Sources */,
 				75E45D1A2492CD6D002CCA92 /* CheckinModels.swift in Sources */,
 				75653DFC249291450029CCF2 /* AppDelegate.swift in Sources */,
 				75653DFE249291450029CCF2 /* SceneDelegate.swift in Sources */,
 				75E45D122492BF1B002CCA92 /* CheckinEndpoints.swift in Sources */,
 				75E45D082492BCE9002CCA92 /* TargeType+default.swift in Sources */,
 				75E45D0A2492BCE9002CCA92 /* DateFormatter+Extensions.swift in Sources */,
+				75E45D232492D269002CCA92 /* EventListViewModel.swift in Sources */,
 				75E45D1E2492D09D002CCA92 /* Person.swift in Sources */,
 				75E45D092492BCE9002CCA92 /* Result+decoded.swift in Sources */,
 			);
@@ -437,6 +468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E45D2E2492E2AB002CCA92 /* EventFilterTests.swift in Sources */,
 				75653E13249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
