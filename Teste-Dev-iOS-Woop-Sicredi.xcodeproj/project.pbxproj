@@ -14,6 +14,17 @@
 		75653E05249291480029CCF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75653E04249291480029CCF2 /* Assets.xcassets */; };
 		75653E08249291480029CCF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75653E06249291480029CCF2 /* LaunchScreen.storyboard */; };
 		75653E13249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */; };
+		75E45D062492BCE9002CCA92 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45CFD2492BCE9002CCA92 /* ApiError.swift */; };
+		75E45D072492BCE9002CCA92 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45CFE2492BCE9002CCA92 /* Service.swift */; };
+		75E45D082492BCE9002CCA92 /* TargeType+default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45CFF2492BCE9002CCA92 /* TargeType+default.swift */; };
+		75E45D092492BCE9002CCA92 /* Result+decoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D002492BCE9002CCA92 /* Result+decoded.swift */; };
+		75E45D0A2492BCE9002CCA92 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D022492BCE9002CCA92 /* DateFormatter+Extensions.swift */; };
+		75E45D0B2492BCE9002CCA92 /* JSONEncoder+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D032492BCE9002CCA92 /* JSONEncoder+Extensions.swift */; };
+		75E45D0C2492BCE9002CCA92 /* JSONDecoder+Extensionas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D042492BCE9002CCA92 /* JSONDecoder+Extensionas.swift */; };
+		75E45D0D2492BCE9002CCA92 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D052492BCE9002CCA92 /* API.swift */; };
+		75E45D102492BD49002CCA92 /* EventEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D0F2492BD49002CCA92 /* EventEndpoints.swift */; };
+		75E45D122492BF1B002CCA92 /* CheckinEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D112492BF1B002CCA92 /* CheckinEndpoints.swift */; };
+		75E45D1A2492CD6D002CCA92 /* CheckinModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D192492CD6D002CCA92 /* CheckinModels.swift */; };
 		A05715BFC9159424F40873A7 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C77FEE1F937D0ECB1568B2 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework */; };
 		FAC38DEE4C5C94D27538BA1D /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B0EE68A0C85F88AFD3DAD7 /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework */; };
 /* End PBXBuildFile section */
@@ -44,6 +55,17 @@
 		75653E0E249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teste-Dev-iOS-Woop-SicrediTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste_Dev_iOS_Woop_SicrediTests.swift; sourceTree = "<group>"; };
 		75653E14249291480029CCF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E45CFD2492BCE9002CCA92 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		75E45CFE2492BCE9002CCA92 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		75E45CFF2492BCE9002CCA92 /* TargeType+default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TargeType+default.swift"; sourceTree = "<group>"; };
+		75E45D002492BCE9002CCA92 /* Result+decoded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Result+decoded.swift"; sourceTree = "<group>"; };
+		75E45D022492BCE9002CCA92 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		75E45D032492BCE9002CCA92 /* JSONEncoder+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONEncoder+Extensions.swift"; sourceTree = "<group>"; };
+		75E45D042492BCE9002CCA92 /* JSONDecoder+Extensionas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Extensionas.swift"; sourceTree = "<group>"; };
+		75E45D052492BCE9002CCA92 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		75E45D0F2492BD49002CCA92 /* EventEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEndpoints.swift; sourceTree = "<group>"; };
+		75E45D112492BF1B002CCA92 /* CheckinEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinEndpoints.swift; sourceTree = "<group>"; };
+		75E45D192492CD6D002CCA92 /* CheckinModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinModels.swift; sourceTree = "<group>"; };
 		77B0EE68A0C85F88AFD3DAD7 /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_Dev_iOS_Woop_SicrediTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C77FEE1F937D0ECB1568B2 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_Dev_iOS_Woop_Sicredi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -111,8 +133,8 @@
 		75653DFA249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */ = {
 			isa = PBXGroup;
 			children = (
+				75E45CFB2492BCE9002CCA92 /* Networking */,
 				75653E202492B3550029CCF2 /* App */,
-				75653E1F2492B33F0029CCF2 /* Networking */,
 				75653E1E2492B33A0029CCF2 /* Screens */,
 				75653E1D2492B3330029CCF2 /* Models */,
 				75653E04249291480029CCF2 /* Assets.xcassets */,
@@ -145,13 +167,6 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		75653E1F2492B33F0029CCF2 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
 		75653E202492B3550029CCF2 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +184,56 @@
 				75653E06249291480029CCF2 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		75E45CFB2492BCE9002CCA92 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				75E45D052492BCE9002CCA92 /* API.swift */,
+				75E45D0E2492BD05002CCA92 /* Endpoints */,
+				75E45D172492CD54002CCA92 /* Models */,
+				75E45CFC2492BCE9002CCA92 /* Moya */,
+				75E45D012492BCE9002CCA92 /* Coders */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		75E45CFC2492BCE9002CCA92 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				75E45CFD2492BCE9002CCA92 /* ApiError.swift */,
+				75E45CFE2492BCE9002CCA92 /* Service.swift */,
+				75E45CFF2492BCE9002CCA92 /* TargeType+default.swift */,
+				75E45D002492BCE9002CCA92 /* Result+decoded.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		75E45D012492BCE9002CCA92 /* Coders */ = {
+			isa = PBXGroup;
+			children = (
+				75E45D022492BCE9002CCA92 /* DateFormatter+Extensions.swift */,
+				75E45D032492BCE9002CCA92 /* JSONEncoder+Extensions.swift */,
+				75E45D042492BCE9002CCA92 /* JSONDecoder+Extensionas.swift */,
+			);
+			path = Coders;
+			sourceTree = "<group>";
+		};
+		75E45D0E2492BD05002CCA92 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				75E45D0F2492BD49002CCA92 /* EventEndpoints.swift */,
+				75E45D112492BF1B002CCA92 /* CheckinEndpoints.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		75E45D172492CD54002CCA92 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75E45D192492CD6D002CCA92 /* CheckinModels.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,9 +404,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E45D0D2492BCE9002CCA92 /* API.swift in Sources */,
+				75E45D102492BD49002CCA92 /* EventEndpoints.swift in Sources */,
 				75653E00249291450029CCF2 /* ViewController.swift in Sources */,
+				75E45D0B2492BCE9002CCA92 /* JSONEncoder+Extensions.swift in Sources */,
+				75E45D062492BCE9002CCA92 /* ApiError.swift in Sources */,
+				75E45D072492BCE9002CCA92 /* Service.swift in Sources */,
+				75E45D0C2492BCE9002CCA92 /* JSONDecoder+Extensionas.swift in Sources */,
+				75E45D1A2492CD6D002CCA92 /* CheckinModels.swift in Sources */,
 				75653DFC249291450029CCF2 /* AppDelegate.swift in Sources */,
 				75653DFE249291450029CCF2 /* SceneDelegate.swift in Sources */,
+				75E45D122492BF1B002CCA92 /* CheckinEndpoints.swift in Sources */,
+				75E45D082492BCE9002CCA92 /* TargeType+default.swift in Sources */,
+				75E45D0A2492BCE9002CCA92 /* DateFormatter+Extensions.swift in Sources */,
+				75E45D092492BCE9002CCA92 /* Result+decoded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,7 +580,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66X93R6BN6;
-				INFOPLIST_FILE = "Teste-Dev-iOS-Woop-Sicredi/Info.plist";
+				INFOPLIST_FILE = "Teste-Dev-iOS-Woop-Sicredi/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -512,7 +588,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigowoulddo.Teste-Dev-iOS-Woop-Sicredi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -523,7 +599,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66X93R6BN6;
-				INFOPLIST_FILE = "Teste-Dev-iOS-Woop-Sicredi/Info.plist";
+				INFOPLIST_FILE = "Teste-Dev-iOS-Woop-Sicredi/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -531,7 +607,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigowoulddo.Teste-Dev-iOS-Woop-Sicredi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
