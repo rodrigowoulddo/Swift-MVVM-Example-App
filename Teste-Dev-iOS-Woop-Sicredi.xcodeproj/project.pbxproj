@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -76,7 +76,6 @@
 				49C721BECEA2969E0CA4CD76 /* Pods-Teste-Dev-iOS-Woop-SicrediTests.debug.xcconfig */,
 				06F94330D5A797B488A3B7F3 /* Pods-Teste-Dev-iOS-Woop-SicrediTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -112,13 +111,11 @@
 		75653DFA249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */ = {
 			isa = PBXGroup;
 			children = (
-				75653DFB249291450029CCF2 /* AppDelegate.swift */,
-				75653DFD249291450029CCF2 /* SceneDelegate.swift */,
-				75653DFF249291450029CCF2 /* ViewController.swift */,
-				75653E01249291450029CCF2 /* Main.storyboard */,
+				75653E202492B3550029CCF2 /* App */,
+				75653E1F2492B33F0029CCF2 /* Networking */,
+				75653E1E2492B33A0029CCF2 /* Screens */,
+				75653E1D2492B3330029CCF2 /* Models */,
 				75653E04249291480029CCF2 /* Assets.xcassets */,
-				75653E06249291480029CCF2 /* LaunchScreen.storyboard */,
-				75653E09249291480029CCF2 /* Info.plist */,
 			);
 			path = "Teste-Dev-iOS-Woop-Sicredi";
 			sourceTree = "<group>";
@@ -130,6 +127,48 @@
 				75653E14249291480029CCF2 /* Info.plist */,
 			);
 			path = "Teste-Dev-iOS-Woop-SicrediTests";
+			sourceTree = "<group>";
+		};
+		75653E1D2492B3330029CCF2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75653E1E2492B33A0029CCF2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				75653E212492B3AA0029CCF2 /* Views */,
+				75653DFF249291450029CCF2 /* ViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		75653E1F2492B33F0029CCF2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		75653E202492B3550029CCF2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				75653DFD249291450029CCF2 /* SceneDelegate.swift */,
+				75653DFB249291450029CCF2 /* AppDelegate.swift */,
+				75653E09249291480029CCF2 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		75653E212492B3AA0029CCF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75653E01249291450029CCF2 /* Main.storyboard */,
+				75653E06249291480029CCF2 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
