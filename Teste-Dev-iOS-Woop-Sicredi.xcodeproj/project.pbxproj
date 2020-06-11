@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75653DFC249291450029CCF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653DFB249291450029CCF2 /* AppDelegate.swift */; };
+		75653DFE249291450029CCF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653DFD249291450029CCF2 /* SceneDelegate.swift */; };
+		75653E00249291450029CCF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653DFF249291450029CCF2 /* ViewController.swift */; };
+		75653E03249291450029CCF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75653E01249291450029CCF2 /* Main.storyboard */; };
+		75653E05249291480029CCF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75653E04249291480029CCF2 /* Assets.xcassets */; };
+		75653E08249291480029CCF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75653E06249291480029CCF2 /* LaunchScreen.storyboard */; };
+		75653E13249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75653E0F249291480029CCF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75653DF0249291450029CCF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75653DF7249291450029CCF2;
+			remoteInfo = "Teste-Dev-iOS-Woop-Sicredi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75653DF8249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teste-Dev-iOS-Woop-Sicredi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75653DFB249291450029CCF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75653DFD249291450029CCF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75653DFF249291450029CCF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75653E02249291450029CCF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75653E04249291480029CCF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75653E07249291480029CCF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75653E09249291480029CCF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75653E0E249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teste-Dev-iOS-Woop-SicrediTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste_Dev_iOS_Woop_SicrediTests.swift; sourceTree = "<group>"; };
+		75653E14249291480029CCF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75653DF5249291450029CCF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75653E0B249291480029CCF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75653DEF249291450029CCF2 = {
+			isa = PBXGroup;
+			children = (
+				75653DFA249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */,
+				75653E11249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests */,
+				75653DF9249291450029CCF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75653DF9249291450029CCF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75653DF8249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi.app */,
+				75653E0E249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75653DFA249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */ = {
+			isa = PBXGroup;
+			children = (
+				75653DFB249291450029CCF2 /* AppDelegate.swift */,
+				75653DFD249291450029CCF2 /* SceneDelegate.swift */,
+				75653DFF249291450029CCF2 /* ViewController.swift */,
+				75653E01249291450029CCF2 /* Main.storyboard */,
+				75653E04249291480029CCF2 /* Assets.xcassets */,
+				75653E06249291480029CCF2 /* LaunchScreen.storyboard */,
+				75653E09249291480029CCF2 /* Info.plist */,
+			);
+			path = "Teste-Dev-iOS-Woop-Sicredi";
+			sourceTree = "<group>";
+		};
+		75653E11249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests */ = {
+			isa = PBXGroup;
+			children = (
+				75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */,
+				75653E14249291480029CCF2 /* Info.plist */,
+			);
+			path = "Teste-Dev-iOS-Woop-SicrediTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75653DF7249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75653E17249291480029CCF2 /* Build configuration list for PBXNativeTarget "Teste-Dev-iOS-Woop-Sicredi" */;
+			buildPhases = (
+				75653DF4249291450029CCF2 /* Sources */,
+				75653DF5249291450029CCF2 /* Frameworks */,
+				75653DF6249291450029CCF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Teste-Dev-iOS-Woop-Sicredi";
+			productName = "Teste-Dev-iOS-Woop-Sicredi";
+			productReference = 75653DF8249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75653E0D249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75653E1A249291480029CCF2 /* Build configuration list for PBXNativeTarget "Teste-Dev-iOS-Woop-SicrediTests" */;
+			buildPhases = (
+				75653E0A249291480029CCF2 /* Sources */,
+				75653E0B249291480029CCF2 /* Frameworks */,
+				75653E0C249291480029CCF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75653E10249291480029CCF2 /* PBXTargetDependency */,
+			);
+			name = "Teste-Dev-iOS-Woop-SicrediTests";
+			productName = "Teste-Dev-iOS-Woop-SicrediTests";
+			productReference = 75653E0E249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75653DF0249291450029CCF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Rodrigo Giglio";
+				TargetAttributes = {
+					75653DF7249291450029CCF2 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					75653E0D249291480029CCF2 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 75653DF7249291450029CCF2;
+					};
+				};
+			};
+			buildConfigurationList = 75653DF3249291450029CCF2 /* Build configuration list for PBXProject "Teste-Dev-iOS-Woop-Sicredi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75653DEF249291450029CCF2;
+			productRefGroup = 75653DF9249291450029CCF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75653DF7249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */,
+				75653E0D249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75653DF6249291450029CCF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75653E08249291480029CCF2 /* LaunchScreen.storyboard in Resources */,
+				75653E05249291480029CCF2 /* Assets.xcassets in Resources */,
+				75653E03249291450029CCF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75653E0C249291480029CCF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75653DF4249291450029CCF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75653E00249291450029CCF2 /* ViewController.swift in Sources */,
+				75653DFC249291450029CCF2 /* AppDelegate.swift in Sources */,
+				75653DFE249291450029CCF2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75653E0A249291480029CCF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75653E13249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75653E10249291480029CCF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75653DF7249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */;
+			targetProxy = 75653E0F249291480029CCF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75653E01249291450029CCF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75653E02249291450029CCF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75653E06249291480029CCF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75653E07249291480029CCF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75653E15249291480029CCF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75653E16249291480029CCF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75653E18249291480029CCF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66X93R6BN6;
+				INFOPLIST_FILE = "Teste-Dev-iOS-Woop-Sicredi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigowoulddo.Teste-Dev-iOS-Woop-Sicredi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75653E19249291480029CCF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66X93R6BN6;
+				INFOPLIST_FILE = "Teste-Dev-iOS-Woop-Sicredi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigowoulddo.Teste-Dev-iOS-Woop-Sicredi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75653E1B249291480029CCF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66X93R6BN6;
+				INFOPLIST_FILE = "Teste-Dev-iOS-Woop-SicrediTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigowoulddo.Teste-Dev-iOS-Woop-SicrediTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teste-Dev-iOS-Woop-Sicredi.app/Teste-Dev-iOS-Woop-Sicredi";
+			};
+			name = Debug;
+		};
+		75653E1C249291480029CCF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66X93R6BN6;
+				INFOPLIST_FILE = "Teste-Dev-iOS-Woop-SicrediTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigowoulddo.Teste-Dev-iOS-Woop-SicrediTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teste-Dev-iOS-Woop-Sicredi.app/Teste-Dev-iOS-Woop-Sicredi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75653DF3249291450029CCF2 /* Build configuration list for PBXProject "Teste-Dev-iOS-Woop-Sicredi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75653E15249291480029CCF2 /* Debug */,
+				75653E16249291480029CCF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75653E17249291480029CCF2 /* Build configuration list for PBXNativeTarget "Teste-Dev-iOS-Woop-Sicredi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75653E18249291480029CCF2 /* Debug */,
+				75653E19249291480029CCF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75653E1A249291480029CCF2 /* Build configuration list for PBXNativeTarget "Teste-Dev-iOS-Woop-SicrediTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75653E1B249291480029CCF2 /* Debug */,
+				75653E1C249291480029CCF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75653DF0249291450029CCF2 /* Project object */;
+}
