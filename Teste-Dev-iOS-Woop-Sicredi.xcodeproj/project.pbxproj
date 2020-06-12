@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7544D56C24942962009E71DD /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7544D56B24942962009E71DD /* EventDetailViewController.swift */; };
+		7544D56E2494296E009E71DD /* EventDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7544D56D2494296E009E71DD /* EventDetailViewModel.swift */; };
 		75653DFC249291450029CCF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653DFB249291450029CCF2 /* AppDelegate.swift */; };
 		75653DFE249291450029CCF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653DFD249291450029CCF2 /* SceneDelegate.swift */; };
 		75653E00249291450029CCF2 /* EventListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653DFF249291450029CCF2 /* EventListTableViewController.swift */; };
@@ -14,6 +16,11 @@
 		75653E05249291480029CCF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75653E04249291480029CCF2 /* Assets.xcassets */; };
 		75653E08249291480029CCF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75653E06249291480029CCF2 /* LaunchScreen.storyboard */; };
 		75653E13249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */; };
+		757B439324942C41002E58BB /* EventImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439224942C41002E58BB /* EventImageTableViewCell.swift */; };
+		757B439524942CCF002E58BB /* EventDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439424942CCF002E58BB /* EventDetailsTableViewCell.swift */; };
+		757B439724942CF7002E58BB /* EventAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439624942CF7002E58BB /* EventAddressTableViewCell.swift */; };
+		757B439924942D17002E58BB /* EventDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439824942D17002E58BB /* EventDescriptionTableViewCell.swift */; };
+		757B439B24943018002E58BB /* EventDetailCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439A24943018002E58BB /* EventDetailCellType.swift */; };
 		75E45D062492BCE9002CCA92 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45CFD2492BCE9002CCA92 /* ApiError.swift */; };
 		75E45D072492BCE9002CCA92 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45CFE2492BCE9002CCA92 /* Service.swift */; };
 		75E45D082492BCE9002CCA92 /* TargeType+default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45CFF2492BCE9002CCA92 /* TargeType+default.swift */; };
@@ -54,6 +61,8 @@
 		06F94330D5A797B488A3B7F3 /* Pods-Teste-Dev-iOS-Woop-SicrediTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste-Dev-iOS-Woop-SicrediTests.release.xcconfig"; path = "Target Support Files/Pods-Teste-Dev-iOS-Woop-SicrediTests/Pods-Teste-Dev-iOS-Woop-SicrediTests.release.xcconfig"; sourceTree = "<group>"; };
 		450CBB74F79019CF1AF1D954 /* Pods-Teste-Dev-iOS-Woop-Sicredi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste-Dev-iOS-Woop-Sicredi.debug.xcconfig"; path = "Target Support Files/Pods-Teste-Dev-iOS-Woop-Sicredi/Pods-Teste-Dev-iOS-Woop-Sicredi.debug.xcconfig"; sourceTree = "<group>"; };
 		49C721BECEA2969E0CA4CD76 /* Pods-Teste-Dev-iOS-Woop-SicrediTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste-Dev-iOS-Woop-SicrediTests.debug.xcconfig"; path = "Target Support Files/Pods-Teste-Dev-iOS-Woop-SicrediTests/Pods-Teste-Dev-iOS-Woop-SicrediTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7544D56B24942962009E71DD /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		7544D56D2494296E009E71DD /* EventDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewModel.swift; sourceTree = "<group>"; };
 		75653DF8249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teste-Dev-iOS-Woop-Sicredi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75653DFB249291450029CCF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75653DFD249291450029CCF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +74,11 @@
 		75653E0E249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teste-Dev-iOS-Woop-SicrediTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste_Dev_iOS_Woop_SicrediTests.swift; sourceTree = "<group>"; };
 		75653E14249291480029CCF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757B439224942C41002E58BB /* EventImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventImageTableViewCell.swift; sourceTree = "<group>"; };
+		757B439424942CCF002E58BB /* EventDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		757B439624942CF7002E58BB /* EventAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAddressTableViewCell.swift; sourceTree = "<group>"; };
+		757B439824942D17002E58BB /* EventDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		757B439A24943018002E58BB /* EventDetailCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailCellType.swift; sourceTree = "<group>"; };
 		75E45CFD2492BCE9002CCA92 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		75E45CFE2492BCE9002CCA92 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		75E45CFF2492BCE9002CCA92 /* TargeType+default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TargeType+default.swift"; sourceTree = "<group>"; };
@@ -130,6 +144,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7544D56A24942920009E71DD /* EventDetail */ = {
+			isa = PBXGroup;
+			children = (
+				757B439124942BBF002E58BB /* Subviews */,
+				7544D56B24942962009E71DD /* EventDetailViewController.swift */,
+				7544D56D2494296E009E71DD /* EventDetailViewModel.swift */,
+			);
+			path = EventDetail;
+			sourceTree = "<group>";
+		};
 		75653DEF249291450029CCF2 = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +212,7 @@
 			children = (
 				75653E212492B3AA0029CCF2 /* Views */,
 				75E45D212492D24C002CCA92 /* EventList */,
+				7544D56A24942920009E71DD /* EventDetail */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -209,6 +234,18 @@
 				75653E06249291480029CCF2 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		757B439124942BBF002E58BB /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				757B439A24943018002E58BB /* EventDetailCellType.swift */,
+				757B439224942C41002E58BB /* EventImageTableViewCell.swift */,
+				757B439424942CCF002E58BB /* EventDetailsTableViewCell.swift */,
+				757B439624942CF7002E58BB /* EventAddressTableViewCell.swift */,
+				757B439824942D17002E58BB /* EventDescriptionTableViewCell.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 		75E45CFB2492BCE9002CCA92 /* Networking */ = {
@@ -464,8 +501,12 @@
 				75E45D332492F8B4002CCA92 /* Date+Extensions.swift in Sources */,
 				75E45D0D2492BCE9002CCA92 /* API.swift in Sources */,
 				75E45D102492BD49002CCA92 /* EventEndpoints.swift in Sources */,
+				7544D56C24942962009E71DD /* EventDetailViewController.swift in Sources */,
 				75653E00249291450029CCF2 /* EventListTableViewController.swift in Sources */,
+				757B439524942CCF002E58BB /* EventDetailsTableViewCell.swift in Sources */,
 				75E45D0B2492BCE9002CCA92 /* JSONEncoder+Extensions.swift in Sources */,
+				757B439B24943018002E58BB /* EventDetailCellType.swift in Sources */,
+				757B439924942D17002E58BB /* EventDescriptionTableViewCell.swift in Sources */,
 				75E45D1C2492D025002CCA92 /* Event.swift in Sources */,
 				75E45D062492BCE9002CCA92 /* ApiError.swift in Sources */,
 				75E45D072492BCE9002CCA92 /* Service.swift in Sources */,
@@ -476,10 +517,13 @@
 				75653DFE249291450029CCF2 /* SceneDelegate.swift in Sources */,
 				75E45D38249301FA002CCA92 /* UIImage+Extensions.swift in Sources */,
 				75E45D122492BF1B002CCA92 /* CheckinEndpoints.swift in Sources */,
+				7544D56E2494296E009E71DD /* EventDetailViewModel.swift in Sources */,
 				75E45D082492BCE9002CCA92 /* TargeType+default.swift in Sources */,
 				75E45D232492D269002CCA92 /* EventListViewModel.swift in Sources */,
 				75E45D312492F65C002CCA92 /* EventTableViewCell.swift in Sources */,
 				75E45D1E2492D09D002CCA92 /* Person.swift in Sources */,
+				757B439724942CF7002E58BB /* EventAddressTableViewCell.swift in Sources */,
+				757B439324942C41002E58BB /* EventImageTableViewCell.swift in Sources */,
 				75E45D092492BCE9002CCA92 /* Result+decoded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

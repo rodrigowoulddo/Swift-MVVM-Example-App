@@ -51,6 +51,19 @@ class EventListTableViewController: UITableViewController {
     }
 }
 
+// MARK: - Navigation
+extension EventListTableViewController {
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        guard let eventDetailViewController = segue.destination as? EventDetailViewController else { return }
+        let event = sender as? Event
+        eventDetailViewController.viewModel.event = event
+        
+    }
+    
+}
+
 
 // MARK: - EventListViewModelDelegate
 extension EventListTableViewController: EventListViewModelDelegate {
@@ -67,6 +80,11 @@ extension EventListTableViewController: EventListViewModelDelegate {
     
     func didFailedToLoadEvents(errorTitle: String, errorDescription: String) {
         // TODO
+    }
+    
+    func openEventDetails(_ event: Event) {
+        
+        performSegue(withIdentifier: "eventDetail", sender: event)
     }
 }
 
@@ -88,16 +106,19 @@ extension EventListTableViewController {
         
         return cell
     }
-    
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 165
-    }
 }
 
 
 // MARK: - UITableViewDelegate
 extension EventListTableViewController {
     
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 165
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        viewModel.didSelectEvent(at: indexPath.row)
+    }
 }
 
 

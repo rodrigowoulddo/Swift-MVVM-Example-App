@@ -11,6 +11,7 @@ import Foundation
 protocol EventListViewModelDelegate: class {
     func didLoadEvents()
     func didFailedToLoadEvents(errorTitle: String, errorDescription: String)
+    func openEventDetails(_ event: Event)
 }
 
 class EventListViewModel {
@@ -67,5 +68,10 @@ class EventListViewModel {
         filter = nil
         showldDisplaySearch = false
         delegate?.didLoadEvents()
+    }
+    
+    public func didSelectEvent(at index: Int) {
+        let event = events[index]
+        delegate?.openEventDetails(event)
     }
 }

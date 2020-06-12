@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -43,8 +44,8 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mFt-dD-t9W">
                                             <rect key="frame" x="32" y="17" width="350" height="131"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="qAu-sq-5XQ">
-                                                    <rect key="frame" x="110" y="4" width="240" height="127"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="qAu-sq-5XQ">
+                                                    <rect key="frame" x="110" y="4" width="240" height="107"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05/08/2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9Z-bi-cnO">
                                                             <rect key="frame" x="0.0" y="0.0" width="75.5" height="18"/>
@@ -55,8 +56,8 @@
                                                             <color key="textColor" systemColor="tertiaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feira de adoção de animais na Redenção" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgS-7Z-h6J">
-                                                            <rect key="frame" x="0.0" y="23" width="186" height="33.5"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A sample event" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgS-7Z-h6J">
+                                                            <rect key="frame" x="0.0" y="22" width="103" height="17"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" relation="lessThanOrEqual" constant="43" id="rmk-Pc-9dl"/>
                                                             </constraints>
@@ -65,7 +66,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XmA-oT-xI6">
-                                                            <rect key="frame" x="0.0" y="62" width="239" height="38"/>
+                                                            <rect key="frame" x="0.0" y="43" width="239" height="38"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" relation="lessThanOrEqual" constant="38" id="6Mi-qb-fBd"/>
                                                             </constraints>
@@ -75,7 +76,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 19,90" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hin-jw-BSd">
-                                                            <rect key="frame" x="0.0" y="105" width="69" height="22"/>
+                                                            <rect key="frame" x="0.0" y="85" width="69" height="22"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="22" id="1cC-m5-CCG"/>
                                                             </constraints>
@@ -99,7 +100,6 @@
                                                 <constraint firstAttribute="trailing" secondItem="qAu-sq-5XQ" secondAttribute="trailing" id="7tO-U5-G7U"/>
                                                 <constraint firstItem="bZy-nc-Ww1" firstAttribute="top" secondItem="mFt-dD-t9W" secondAttribute="top" id="Ar3-bC-IZb"/>
                                                 <constraint firstItem="qAu-sq-5XQ" firstAttribute="leading" secondItem="bZy-nc-Ww1" secondAttribute="trailing" constant="15" id="BVz-LX-SEa"/>
-                                                <constraint firstAttribute="bottom" secondItem="qAu-sq-5XQ" secondAttribute="bottom" id="Cgt-Bv-Gq5"/>
                                                 <constraint firstItem="bZy-nc-Ww1" firstAttribute="leading" secondItem="mFt-dD-t9W" secondAttribute="leading" id="dIM-SV-Xga"/>
                                             </constraints>
                                         </view>
@@ -130,10 +130,207 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </refreshControl>
+                    <connections>
+                        <segue destination="RwS-DD-WEp" kind="show" identifier="eventDetail" id="JR0-dy-JLy"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6vX-Xb-8jo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="953.62318840579712" y="109.82142857142857"/>
+        </scene>
+        <!--Evento-->
+        <scene sceneID="o1m-rp-JoN">
+            <objects>
+                <viewController id="RwS-DD-WEp" customClass="EventDetailViewController" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7HC-wv-bys">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uWr-EW-gkP">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventImageTableViewCell" rowHeight="200" id="iMP-eF-AvB" customClass="EventImageTableViewCell" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="200"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iMP-eF-AvB" id="Bdt-uj-Jvi">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIZ-xi-Zdl">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="200" id="kH6-k9-RQZ"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="PIZ-xi-Zdl" firstAttribute="top" secondItem="Bdt-uj-Jvi" secondAttribute="top" id="JAw-ox-Wns"/>
+                                                <constraint firstAttribute="bottom" secondItem="PIZ-xi-Zdl" secondAttribute="bottom" id="NWL-bb-9SZ"/>
+                                                <constraint firstItem="PIZ-xi-Zdl" firstAttribute="leading" secondItem="Bdt-uj-Jvi" secondAttribute="leading" id="UDO-g3-uZs"/>
+                                                <constraint firstAttribute="trailing" secondItem="PIZ-xi-Zdl" secondAttribute="trailing" id="hCp-J6-hVc"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageImageView" destination="PIZ-xi-Zdl" id="Cmd-Eo-NMZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventDetailsTableViewCell" rowHeight="180" id="6nn-ic-Nfj" customClass="EventDetailsTableViewCell" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="228" width="414" height="180"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6nn-ic-Nfj" id="0a7-5z-HTE">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="JKd-sD-s2v">
+                                                    <rect key="frame" x="20" y="32" width="374" height="122"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05/08/2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcb-qO-CAS">
+                                                            <rect key="frame" x="0.0" y="0.0" width="75.5" height="18"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="18" id="VrT-lq-PNT"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                                            <color key="textColor" systemColor="tertiaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feira de adoção de animais na Redenção" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xSR-1L-jQd">
+                                                            <rect key="frame" x="0.0" y="32.5" width="275.5" height="53"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="61" id="zHa-bU-Gf2"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 19,90" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sL5-bI-6bX">
+                                                            <rect key="frame" x="0.0" y="100" width="86.5" height="22"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="22" id="QSE-TR-gH5"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                            <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="JKd-sD-s2v" secondAttribute="bottom" constant="15" id="FAk-ZD-WAI"/>
+                                                <constraint firstItem="JKd-sD-s2v" firstAttribute="top" secondItem="0a7-5z-HTE" secondAttribute="top" constant="32" id="JeH-nr-Swi"/>
+                                                <constraint firstAttribute="trailing" secondItem="JKd-sD-s2v" secondAttribute="trailing" constant="20" id="RH3-TW-goE"/>
+                                                <constraint firstItem="JKd-sD-s2v" firstAttribute="leading" secondItem="0a7-5z-HTE" secondAttribute="leading" constant="20" id="j8h-FZ-Jxg"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="jcb-qO-CAS" id="oB2-fN-zlc"/>
+                                            <outlet property="priceLabel" destination="sL5-bI-6bX" id="JzU-nV-gE7"/>
+                                            <outlet property="titleLabel" destination="xSR-1L-jQd" id="bfN-L6-w64"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventAddressTableViewCell" rowHeight="100" id="tKK-Os-e09" customClass="EventAddressTableViewCell" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="408" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tKK-Os-e09" id="mpm-qG-Tz8">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="01T-4M-yqV">
+                                                    <rect key="frame" x="20" y="26" width="374" height="48"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENDEREÇO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iwd-3C-ibU">
+                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="18.5"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="scz-W0-4MR">
+                                                            <rect key="frame" x="0.0" y="24.5" width="374" height="23.5"/>
+                                                            <subviews>
+                                                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Moz-rd-g76">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="20" height="23.5"/>
+                                                                </activityIndicatorView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sicredi street, 105" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVO-EJ-mOj">
+                                                                    <rect key="frame" x="20" y="0.0" width="354" height="23.5"/>
+                                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="01T-4M-yqV" firstAttribute="leading" secondItem="mpm-qG-Tz8" secondAttribute="leadingMargin" id="8WF-OY-R4S"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="01T-4M-yqV" secondAttribute="bottom" constant="15" id="bxa-oC-BVI"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="01T-4M-yqV" secondAttribute="trailing" id="khe-Ha-3gr"/>
+                                                <constraint firstItem="01T-4M-yqV" firstAttribute="top" secondItem="mpm-qG-Tz8" secondAttribute="topMargin" constant="15" id="wNh-GP-IVU"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="activityIndicator" destination="Moz-rd-g76" id="tYg-BC-zyc"/>
+                                            <outlet property="addressLabel" destination="gVO-EJ-mOj" id="27q-lz-JB7"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventDescriptionTableViewCell" rowHeight="185" id="p2R-A4-QUL" customClass="EventDescriptionTableViewCell" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="508" width="414" height="185"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="p2R-A4-QUL" id="ujS-yt-ZUv">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="185"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="r9R-fm-gDB">
+                                                    <rect key="frame" x="20" y="26" width="374" height="133"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DESCRIÇÃO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuP-av-zX7">
+                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="16"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1aX-hW-RSA">
+                                                            <rect key="frame" x="0.0" y="23" width="374" height="110"/>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+                                                            <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                        </textView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="r9R-fm-gDB" firstAttribute="top" secondItem="ujS-yt-ZUv" secondAttribute="topMargin" constant="15" id="4NF-g2-HTK"/>
+                                                <constraint firstItem="r9R-fm-gDB" firstAttribute="leading" secondItem="ujS-yt-ZUv" secondAttribute="leadingMargin" id="9Qn-vs-9UJ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="r9R-fm-gDB" secondAttribute="trailing" id="KWb-bi-rBf"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="r9R-fm-gDB" secondAttribute="bottom" constant="15" id="dqk-Pi-8ka"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="descriptionTextView" destination="1aX-hW-RSA" id="eFD-Z5-gD8"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Wir-5c-ftC" firstAttribute="trailing" secondItem="uWr-EW-gkP" secondAttribute="trailing" id="A8W-YJ-IqG"/>
+                            <constraint firstItem="uWr-EW-gkP" firstAttribute="leading" secondItem="Wir-5c-ftC" secondAttribute="leading" id="BpO-RG-jQc"/>
+                            <constraint firstItem="Wir-5c-ftC" firstAttribute="bottom" secondItem="uWr-EW-gkP" secondAttribute="bottom" id="SH6-ch-JYO"/>
+                            <constraint firstItem="uWr-EW-gkP" firstAttribute="top" secondItem="Wir-5c-ftC" secondAttribute="top" id="VAV-Xu-hFh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Wir-5c-ftC"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Evento" largeTitleDisplayMode="never" id="UFz-rX-9AC"/>
+                    <connections>
+                        <outlet property="tableView" destination="uWr-EW-gkP" id="8g6-B3-wvn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KQT-QE-PIC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1721.7391304347827" y="109.82142857142857"/>
         </scene>
     </scenes>
 </document>
