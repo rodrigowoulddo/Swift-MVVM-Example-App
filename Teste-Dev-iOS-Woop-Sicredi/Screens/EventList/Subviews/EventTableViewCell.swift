@@ -17,7 +17,6 @@ class EventTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
-    @IBOutlet weak var addressLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var imageImageView: UIImageView!
     
@@ -34,7 +33,6 @@ class EventTableViewCell: UITableViewCell {
         titleLabel.text = event.title
         dateLabel.text = event.date.formattedString
         descriptionLabel.text = event.description
-        addressLabel.text = String.empty // TODO
         priceLabel.text = "R$ \(event.price)"
         imageImageView.setImage(from: event.image, withActivityIndicator: false, withFade: true, fadeDuration: .Normal)
         imageImageView.layer.cornerRadius = 8
