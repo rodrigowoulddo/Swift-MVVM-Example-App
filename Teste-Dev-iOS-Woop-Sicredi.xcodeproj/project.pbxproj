@@ -18,7 +18,6 @@
 		75E45D072492BCE9002CCA92 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45CFE2492BCE9002CCA92 /* Service.swift */; };
 		75E45D082492BCE9002CCA92 /* TargeType+default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45CFF2492BCE9002CCA92 /* TargeType+default.swift */; };
 		75E45D092492BCE9002CCA92 /* Result+decoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D002492BCE9002CCA92 /* Result+decoded.swift */; };
-		75E45D0A2492BCE9002CCA92 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D022492BCE9002CCA92 /* DateFormatter+Extensions.swift */; };
 		75E45D0B2492BCE9002CCA92 /* JSONEncoder+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D032492BCE9002CCA92 /* JSONEncoder+Extensions.swift */; };
 		75E45D0C2492BCE9002CCA92 /* JSONDecoder+Extensionas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D042492BCE9002CCA92 /* JSONDecoder+Extensionas.swift */; };
 		75E45D0D2492BCE9002CCA92 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D052492BCE9002CCA92 /* API.swift */; };
@@ -32,6 +31,10 @@
 		75E45D2A2492DA9B002CCA92 /* UISearchController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D292492DA9B002CCA92 /* UISearchController+Extensions.swift */; };
 		75E45D2C2492E04A002CCA92 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D2B2492E04A002CCA92 /* String+Extensions.swift */; };
 		75E45D2E2492E2AB002CCA92 /* EventFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D2D2492E2AB002CCA92 /* EventFilterTests.swift */; };
+		75E45D312492F65C002CCA92 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D302492F65C002CCA92 /* EventTableViewCell.swift */; };
+		75E45D332492F8B4002CCA92 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D322492F8B4002CCA92 /* Date+Extensions.swift */; };
+		75E45D362493019D002CCA92 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D352493019D002CCA92 /* UIImageView+Extensions.swift */; };
+		75E45D38249301FA002CCA92 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D37249301FA002CCA92 /* UIImage+Extensions.swift */; };
 		A05715BFC9159424F40873A7 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C77FEE1F937D0ECB1568B2 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework */; };
 		FAC38DEE4C5C94D27538BA1D /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B0EE68A0C85F88AFD3DAD7 /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework */; };
 /* End PBXBuildFile section */
@@ -66,7 +69,6 @@
 		75E45CFE2492BCE9002CCA92 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		75E45CFF2492BCE9002CCA92 /* TargeType+default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TargeType+default.swift"; sourceTree = "<group>"; };
 		75E45D002492BCE9002CCA92 /* Result+decoded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Result+decoded.swift"; sourceTree = "<group>"; };
-		75E45D022492BCE9002CCA92 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
 		75E45D032492BCE9002CCA92 /* JSONEncoder+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONEncoder+Extensions.swift"; sourceTree = "<group>"; };
 		75E45D042492BCE9002CCA92 /* JSONDecoder+Extensionas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Extensionas.swift"; sourceTree = "<group>"; };
 		75E45D052492BCE9002CCA92 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
@@ -80,6 +82,10 @@
 		75E45D292492DA9B002CCA92 /* UISearchController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchController+Extensions.swift"; sourceTree = "<group>"; };
 		75E45D2B2492E04A002CCA92 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		75E45D2D2492E2AB002CCA92 /* EventFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFilterTests.swift; sourceTree = "<group>"; };
+		75E45D302492F65C002CCA92 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		75E45D322492F8B4002CCA92 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		75E45D352493019D002CCA92 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		75E45D37249301FA002CCA92 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		77B0EE68A0C85F88AFD3DAD7 /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_Dev_iOS_Woop_SicrediTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C77FEE1F937D0ECB1568B2 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_Dev_iOS_Woop_Sicredi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -231,7 +237,6 @@
 		75E45D012492BCE9002CCA92 /* Coders */ = {
 			isa = PBXGroup;
 			children = (
-				75E45D022492BCE9002CCA92 /* DateFormatter+Extensions.swift */,
 				75E45D032492BCE9002CCA92 /* JSONEncoder+Extensions.swift */,
 				75E45D042492BCE9002CCA92 /* JSONDecoder+Extensionas.swift */,
 			);
@@ -258,6 +263,7 @@
 		75E45D212492D24C002CCA92 /* EventList */ = {
 			isa = PBXGroup;
 			children = (
+				75E45D2F2492F63C002CCA92 /* Subviews */,
 				75653DFF249291450029CCF2 /* EventListTableViewController.swift */,
 				75E45D222492D269002CCA92 /* EventListViewModel.swift */,
 			);
@@ -269,8 +275,19 @@
 			children = (
 				75E45D292492DA9B002CCA92 /* UISearchController+Extensions.swift */,
 				75E45D2B2492E04A002CCA92 /* String+Extensions.swift */,
+				75E45D322492F8B4002CCA92 /* Date+Extensions.swift */,
+				75E45D352493019D002CCA92 /* UIImageView+Extensions.swift */,
+				75E45D37249301FA002CCA92 /* UIImage+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		75E45D2F2492F63C002CCA92 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				75E45D302492F65C002CCA92 /* EventTableViewCell.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,6 +460,8 @@
 			files = (
 				75E45D2C2492E04A002CCA92 /* String+Extensions.swift in Sources */,
 				75E45D202492D0D3002CCA92 /* Cupon.swift in Sources */,
+				75E45D362493019D002CCA92 /* UIImageView+Extensions.swift in Sources */,
+				75E45D332492F8B4002CCA92 /* Date+Extensions.swift in Sources */,
 				75E45D0D2492BCE9002CCA92 /* API.swift in Sources */,
 				75E45D102492BD49002CCA92 /* EventEndpoints.swift in Sources */,
 				75653E00249291450029CCF2 /* EventListTableViewController.swift in Sources */,
@@ -455,10 +474,11 @@
 				75E45D1A2492CD6D002CCA92 /* CheckinModels.swift in Sources */,
 				75653DFC249291450029CCF2 /* AppDelegate.swift in Sources */,
 				75653DFE249291450029CCF2 /* SceneDelegate.swift in Sources */,
+				75E45D38249301FA002CCA92 /* UIImage+Extensions.swift in Sources */,
 				75E45D122492BF1B002CCA92 /* CheckinEndpoints.swift in Sources */,
 				75E45D082492BCE9002CCA92 /* TargeType+default.swift in Sources */,
-				75E45D0A2492BCE9002CCA92 /* DateFormatter+Extensions.swift in Sources */,
 				75E45D232492D269002CCA92 /* EventListViewModel.swift in Sources */,
+				75E45D312492F65C002CCA92 /* EventTableViewCell.swift in Sources */,
 				75E45D1E2492D09D002CCA92 /* Person.swift in Sources */,
 				75E45D092492BCE9002CCA92 /* Result+decoded.swift in Sources */,
 			);

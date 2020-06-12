@@ -12,7 +12,7 @@ struct Event: Decodable {
     
     let id: String
     let people: [Person]
-    let date: Int
+    let date: Date
     let description: String
     let image: String
     let longitude: Double

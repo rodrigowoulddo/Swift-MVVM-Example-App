@@ -6,7 +6,7 @@ extension JSONEncoder {
     static var encoder: JSONEncoder {
         
         let encoder = JSONEncoder()
-        encoder.dateEncodingStrategy = .formatted(DateFormatter.defaultFormatter)
+        encoder.dateEncodingStrategy = .millisecondsSince1970
         return encoder
     }
 }

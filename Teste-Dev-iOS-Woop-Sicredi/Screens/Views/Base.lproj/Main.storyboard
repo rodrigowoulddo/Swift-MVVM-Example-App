@@ -33,13 +33,105 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="qgZ-ck-xbh">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="EventTableViewCell" rowHeight="165" id="qgZ-ck-xbh" customClass="EventTableViewCell" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="165"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qgZ-ck-xbh" id="UcP-4m-0cL">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="165"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mFt-dD-t9W">
+                                            <rect key="frame" x="32" y="17" width="350" height="131"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgS-7Z-h6J">
+                                                    <rect key="frame" x="0.0" y="0.0" width="350" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="rmk-Pc-9dl"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qAu-sq-5XQ">
+                                                    <rect key="frame" x="0.0" y="32" width="240" height="99"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="left" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Mmb-FE-5cM">
+                                                            <rect key="frame" x="0.0" y="0.0" width="240" height="15.5"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05/08/2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9Z-bi-cnO">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="15.5"/>
+                                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                                                    <color key="textColor" systemColor="tertiaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XmA-oT-xI6">
+                                                            <rect key="frame" x="0.0" y="25.5" width="240" height="48.5"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="6Mi-qb-fBd"/>
+                                                            </constraints>
+                                                            <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                            <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="SRM-h1-iOL">
+                                                            <rect key="frame" x="0.0" y="84" width="240" height="15"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 19,90" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hin-jw-BSd">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="54" height="15"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                    <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address, São Paulo - Brasil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3l-GD-jpl">
+                                                                    <rect key="frame" x="76.5" y="0.0" width="163.5" height="15"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                    <color key="textColor" systemColor="tertiaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9u7-4d-eg9">
+                                                    <rect key="frame" x="250" y="25" width="100" height="106"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="pdO-wH-tFq"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="qAu-sq-5XQ" secondAttribute="bottom" id="Cgt-Bv-Gq5"/>
+                                                <constraint firstAttribute="bottom" secondItem="9u7-4d-eg9" secondAttribute="bottom" id="P6l-QW-PVr"/>
+                                                <constraint firstItem="EgS-7Z-h6J" firstAttribute="top" secondItem="mFt-dD-t9W" secondAttribute="top" id="TF1-ks-pK0"/>
+                                                <constraint firstAttribute="trailing" secondItem="9u7-4d-eg9" secondAttribute="trailing" id="X6G-zS-MrN"/>
+                                                <constraint firstItem="qAu-sq-5XQ" firstAttribute="leading" secondItem="mFt-dD-t9W" secondAttribute="leading" id="Yll-8c-x4G"/>
+                                                <constraint firstAttribute="trailing" secondItem="EgS-7Z-h6J" secondAttribute="trailing" id="ZsW-dj-ai2"/>
+                                                <constraint firstItem="qAu-sq-5XQ" firstAttribute="top" secondItem="EgS-7Z-h6J" secondAttribute="bottom" constant="15" id="aYJ-Vn-ezp"/>
+                                                <constraint firstItem="9u7-4d-eg9" firstAttribute="top" secondItem="EgS-7Z-h6J" secondAttribute="bottom" constant="8" id="lFn-jM-f8Q"/>
+                                                <constraint firstItem="9u7-4d-eg9" firstAttribute="leading" secondItem="qAu-sq-5XQ" secondAttribute="trailing" constant="10" id="w4R-Gy-002"/>
+                                                <constraint firstItem="EgS-7Z-h6J" firstAttribute="leading" secondItem="mFt-dD-t9W" secondAttribute="leading" id="zh2-hc-nt8"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="mFt-dD-t9W" firstAttribute="top" secondItem="UcP-4m-0cL" secondAttribute="topMargin" constant="6" id="8vW-7r-zXe"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="mFt-dD-t9W" secondAttribute="trailing" constant="12" id="JcM-ru-wbp"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="mFt-dD-t9W" secondAttribute="bottom" constant="6" id="Xax-IB-pPJ"/>
+                                        <constraint firstItem="mFt-dD-t9W" firstAttribute="leading" secondItem="UcP-4m-0cL" secondAttribute="leadingMargin" constant="12" id="hvl-nb-auM"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="addressLabel" destination="Y3l-GD-jpl" id="lmu-GR-bdy"/>
+                                    <outlet property="dateLabel" destination="H9Z-bi-cnO" id="Bog-XC-e0C"/>
+                                    <outlet property="descriptionLabel" destination="XmA-oT-xI6" id="8at-4a-yC6"/>
+                                    <outlet property="imageImageView" destination="9u7-4d-eg9" id="eX0-ai-un6"/>
+                                    <outlet property="priceLabel" destination="Hin-jw-BSd" id="7Q0-Ce-uhv"/>
+                                    <outlet property="titleLabel" destination="EgS-7Z-h6J" id="yvP-aU-4Qc"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -54,7 +146,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6vX-Xb-8jo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="955" y="110"/>
+            <point key="canvasLocation" x="953.62318840579712" y="109.82142857142857"/>
         </scene>
     </scenes>
 </document>

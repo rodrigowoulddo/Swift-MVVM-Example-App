@@ -82,11 +82,15 @@ extension EventListTableViewController {
         
         let event = viewModel.events[indexPath.row]
         
-        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: nil)
-        cell.textLabel?.text = event.title
-        cell.detailTextLabel?.text = event.description
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: EventTableViewCell.identifier) as? EventTableViewCell else { return UITableViewCell() }
+        
+        cell.configure(with: event)
         
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 165
     }
 }
 
