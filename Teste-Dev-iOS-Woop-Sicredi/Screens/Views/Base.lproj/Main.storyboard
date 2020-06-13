@@ -602,12 +602,21 @@
                                                                     <action selector="confirmCheckinButtonAction:" destination="eUA-qC-Wll" eventType="touchUpInside" id="5jR-ig-GPj"/>
                                                                 </connections>
                                                             </button>
+                                                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="xuc-s7-cMz">
+                                                                <rect key="frame" x="0.0" y="0.0" width="254" height="40"/>
+                                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </activityIndicatorView>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstItem="qZ4-Ey-ywp" firstAttribute="top" secondItem="aFU-jQ-Pgt" secondAttribute="top" id="N2H-Vd-4zV"/>
                                                             <constraint firstItem="qZ4-Ey-ywp" firstAttribute="leading" secondItem="aFU-jQ-Pgt" secondAttribute="leading" id="SrI-9D-3Cn"/>
+                                                            <constraint firstItem="xuc-s7-cMz" firstAttribute="leading" secondItem="aFU-jQ-Pgt" secondAttribute="leading" id="bSe-GU-i3M"/>
+                                                            <constraint firstAttribute="bottom" secondItem="xuc-s7-cMz" secondAttribute="bottom" id="f29-mU-iuG"/>
+                                                            <constraint firstItem="xuc-s7-cMz" firstAttribute="top" secondItem="aFU-jQ-Pgt" secondAttribute="top" id="kwc-dt-dtV"/>
                                                             <constraint firstAttribute="bottom" secondItem="qZ4-Ey-ywp" secondAttribute="bottom" id="p8p-ou-3hd"/>
+                                                            <constraint firstAttribute="trailing" secondItem="xuc-s7-cMz" secondAttribute="trailing" id="wEd-YE-g0f"/>
                                                             <constraint firstAttribute="trailing" secondItem="qZ4-Ey-ywp" secondAttribute="trailing" id="xsg-M4-zbR"/>
                                                         </constraints>
                                                         <userDefinedRuntimeAttributes>
@@ -645,6 +654,7 @@
                     <navigationItem key="navigationItem" id="Qb3-Wk-Agv"/>
                     <connections>
                         <outlet property="closeButton" destination="dbn-IE-8UC" id="YOW-Tc-raG"/>
+                        <outlet property="confirmActivityIndicator" destination="xuc-s7-cMz" id="vee-To-b1a"/>
                         <outlet property="cuponTextField" destination="eRj-Fs-4TD" id="hF9-8a-nZR"/>
                         <outlet property="dateLabel" destination="4SI-Aj-zRJ" id="a7Q-dV-YTN"/>
                         <outlet property="emailTextField" destination="bEi-c2-UJR" id="Pcm-ED-rGd"/>

@@ -19,6 +19,7 @@ class CheckinViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var cuponTextField: UITextField!
     @IBOutlet weak var closeButton: UIBarButtonItem!
+    @IBOutlet weak var confirmActivityIndicator: UIActivityIndicatorView!
     
     
     // MARK: - Attributes
@@ -31,6 +32,7 @@ class CheckinViewController: UIViewController {
         setupViewModel()
         setupData()
         setupTextFields()
+        setupButtonActivityIndicator()
     }
     
     
@@ -53,6 +55,11 @@ class CheckinViewController: UIViewController {
         configure(nameTextField)
         configure(emailTextField)
         configure(cuponTextField)
+    }
+    
+    private func setupButtonActivityIndicator() {
+        confirmActivityIndicator.startAnimating()
+        confirmActivityIndicator.isHidden = true
     }
     
     // MARK: - Layout Configuration
@@ -132,6 +139,14 @@ extension CheckinViewController: CheckinViewModelDelegate {
     
     func didCheckin() {
         // TODO
+    }
+    
+    func stopLoading() {
+        confirmActivityIndicator.isHidden = true
+    }
+    
+    func startLoading() {
+        confirmActivityIndicator.isHidden = false
     }
 }
 

@@ -15,6 +15,8 @@ protocol CheckinViewModelDelegate: class {
     func invalidateCupon()
     func didApplyCuppon(oldPrice: String, newPrice: String)
     func didCheckin()
+    func stopLoading()
+    func startLoading()
 }
 
 class CheckinViewModel {
@@ -26,7 +28,6 @@ class CheckinViewModel {
     
     var name: String?
     var email: String?
-    var cupon: String?
     
     // MARK: - Public Methods
     public func checkin(name: String?, email: String?) {
@@ -41,11 +42,9 @@ class CheckinViewModel {
     
     public func applyCupon(_ cupon: String?) {
         
-        self.cupon = cupon
-
         guard let event = event else { return }
         
-        let validCupon = event.cupons.filter({ $0.id == cupon }).first
+        let validCupon = validateCupon(cupon, on: event)
         
         /// Checks if cupon is valid
         if let validCupon = validCupon {
@@ -72,6 +71,8 @@ class CheckinViewModel {
             
         else { return }
         
+        delegate?.startLoading()
+        
         let checkinInput = CheckinInput(eventId: eventId, name: name, email: email)
         
         service.request(.checkin(input: checkinInput)) {
@@ -87,6 +88,8 @@ class CheckinViewModel {
                 self.delegate?.didCheckin()
                 
             }
+            
+            self.delegate?.stopLoading()
         }
     }
     
@@ -119,5 +122,11 @@ class CheckinViewModel {
     
     private func applyDiscount(_ discount: Double, atPrice price: Double) -> Double {
         return (discount * price)/100
+    }
+    
+    private func validateCupon(_ cupon: String?, on event: Event) -> Cupon? {
+        
+        guard let cupon = cupon else { return  nil }
+        return event.cupons.filter({ $0.id == cupon }).first
     }
 }
