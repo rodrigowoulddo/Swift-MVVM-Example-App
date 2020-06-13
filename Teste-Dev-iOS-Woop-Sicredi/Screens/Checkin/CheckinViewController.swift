@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Lottie
 
 class CheckinViewController: UIViewController {
 
@@ -20,7 +21,9 @@ class CheckinViewController: UIViewController {
     @IBOutlet weak var cuponTextField: UITextField!
     @IBOutlet weak var closeButton: UIBarButtonItem!
     @IBOutlet weak var confirmActivityIndicator: UIActivityIndicatorView!
-    
+    @IBOutlet weak var successView: UIView!
+    @IBOutlet weak var animationView: AnimationView!
+
     
     // MARK: - Attributes
     let viewModel = CheckinViewModel()
@@ -33,6 +36,7 @@ class CheckinViewController: UIViewController {
         setupData()
         setupTextFields()
         setupButtonActivityIndicator()
+        setupAnimation()
     }
     
     
@@ -60,6 +64,12 @@ class CheckinViewController: UIViewController {
     private func setupButtonActivityIndicator() {
         confirmActivityIndicator.startAnimating()
         confirmActivityIndicator.isHidden = true
+    }
+    
+    private func setupAnimation() {
+        
+        let animation = Animation.named("check")
+        animationView.animation = animation
     }
     
     // MARK: - Layout Configuration
@@ -138,7 +148,14 @@ extension CheckinViewController: CheckinViewModelDelegate {
     }
     
     func didCheckin() {
-        // TODO
+        
+        successView.alpha = 0
+        successView.isHidden = false
+        UIView.animate(withDuration: 0.7, animations: { self.successView.alpha = 1 }) {
+            completed in
+            
+            self.animationView.play()
+        } 
     }
     
     func stopLoading() {

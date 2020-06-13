@@ -22,6 +22,7 @@
 		756CE35A24954467009DC310 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756CE35924954467009DC310 /* Validator.swift */; };
 		756CE35C249557C4009DC310 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756CE35B249557C4009DC310 /* Double+Extensions.swift */; };
 		756CE35E249562E7009DC310 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756CE35D249562E7009DC310 /* UIView+Extensions.swift */; };
+		7579261F24957EDE00D68911 /* check.json in Resources */ = {isa = PBXBuildFile; fileRef = 7579261E24957EDE00D68911 /* check.json */; };
 		757B439324942C41002E58BB /* EventImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439224942C41002E58BB /* EventImageTableViewCell.swift */; };
 		757B439524942CCF002E58BB /* EventDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439424942CCF002E58BB /* EventDetailsTableViewCell.swift */; };
 		757B439724942CF7002E58BB /* EventAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439624942CF7002E58BB /* EventAddressTableViewCell.swift */; };
@@ -86,6 +87,7 @@
 		756CE35924954467009DC310 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		756CE35B249557C4009DC310 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		756CE35D249562E7009DC310 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		7579261E24957EDE00D68911 /* check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = check.json; sourceTree = "<group>"; };
 		757B439224942C41002E58BB /* EventImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventImageTableViewCell.swift; sourceTree = "<group>"; };
 		757B439424942CCF002E58BB /* EventDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		757B439624942CF7002E58BB /* EventAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAddressTableViewCell.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 		75653DFA249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */ = {
 			isa = PBXGroup;
 			children = (
+				757926142495779700D68911 /* Animations */,
 				756CE34E249529A9009DC310 /* Utils */,
 				75E45D282492DA8A002CCA92 /* Extensions */,
 				75E45CFB2492BCE9002CCA92 /* Networking */,
@@ -266,6 +269,14 @@
 				756CE35624954209009DC310 /* CheckinViewModel.swift */,
 			);
 			path = Checkin;
+			sourceTree = "<group>";
+		};
+		757926142495779700D68911 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				7579261E24957EDE00D68911 /* check.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 		757B439124942BBF002E58BB /* Subviews */ = {
@@ -445,6 +456,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7579261F24957EDE00D68911 /* check.json in Resources */,
 				75653E08249291480029CCF2 /* LaunchScreen.storyboard in Resources */,
 				75653E05249291480029CCF2 /* Assets.xcassets in Resources */,
 				75653E03249291450029CCF2 /* Main.storyboard in Resources */,
