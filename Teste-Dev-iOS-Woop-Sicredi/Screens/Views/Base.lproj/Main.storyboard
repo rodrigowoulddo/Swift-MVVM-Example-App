@@ -29,13 +29,13 @@
         <!--Eventos-->
         <scene sceneID="ufT-N3-Ns4">
             <objects>
-                <tableViewController id="J8S-wi-vZH" customClass="EventListTableViewController" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="J8S-wi-vZH" customClass="EventListTableViewController" customModule="Eventos" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="kcc-Le-Xw2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="EventTableViewCell" rowHeight="165" id="qgZ-ck-xbh" customClass="EventTableViewCell" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="EventTableViewCell" rowHeight="165" id="qgZ-ck-xbh" customClass="EventTableViewCell" customModule="Eventos" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="165"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qgZ-ck-xbh" id="UcP-4m-0cL">
@@ -154,7 +154,7 @@
         <!--Evento-->
         <scene sceneID="o1m-rp-JoN">
             <objects>
-                <viewController id="RwS-DD-WEp" customClass="EventDetailViewController" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RwS-DD-WEp" customClass="EventDetailViewController" customModule="Eventos" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7HC-wv-bys">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -163,7 +163,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventImageTableViewCell" rowHeight="200" id="iMP-eF-AvB" customClass="EventImageTableViewCell" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventImageTableViewCell" rowHeight="200" id="iMP-eF-AvB" customClass="EventImageTableViewCell" customModule="Eventos" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iMP-eF-AvB" id="Bdt-uj-Jvi">
@@ -188,7 +188,7 @@
                                             <outlet property="imageImageView" destination="PIZ-xi-Zdl" id="Cmd-Eo-NMZ"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventDetailsTableViewCell" rowHeight="159" id="6nn-ic-Nfj" customClass="EventDetailsTableViewCell" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventDetailsTableViewCell" rowHeight="159" id="6nn-ic-Nfj" customClass="EventDetailsTableViewCell" customModule="Eventos" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="228" width="414" height="159"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6nn-ic-Nfj" id="0a7-5z-HTE">
@@ -288,7 +288,7 @@
                                             <outlet property="titleLabel" destination="xSR-1L-jQd" id="bfN-L6-w64"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventAddressTableViewCell" rowHeight="121" id="tKK-Os-e09" customClass="EventAddressTableViewCell" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventAddressTableViewCell" rowHeight="121" id="tKK-Os-e09" customClass="EventAddressTableViewCell" customModule="Eventos" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="387" width="414" height="121"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tKK-Os-e09" id="mpm-qG-Tz8">
@@ -342,7 +342,7 @@
                                             <outlet property="addressLabel" destination="gVO-EJ-mOj" id="27q-lz-JB7"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventDescriptionTableViewCell" rowHeight="185" id="p2R-A4-QUL" customClass="EventDescriptionTableViewCell" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventDescriptionTableViewCell" rowHeight="185" id="p2R-A4-QUL" customClass="EventDescriptionTableViewCell" customModule="Eventos" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="508" width="414" height="185"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="p2R-A4-QUL" id="ujS-yt-ZUv">
@@ -405,7 +405,7 @@
         <!--Checkin-->
         <scene sceneID="io3-Tc-eL7">
             <objects>
-                <viewController id="eUA-qC-Wll" customClass="CheckinViewController" customModule="Teste_Dev_iOS_Woop_Sicredi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eUA-qC-Wll" customClass="CheckinViewController" customModule="Eventos" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DGK-Ij-f16">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
