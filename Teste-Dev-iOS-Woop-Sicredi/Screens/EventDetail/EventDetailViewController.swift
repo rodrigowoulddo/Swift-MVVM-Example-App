@@ -36,6 +36,11 @@ class EventDetailViewController: UIViewController {
     private func setupViewModel() {
         viewModel.delegate = self
     }
+    
+    // MARK: - Outlet Functions
+    @IBAction func seeMapButtonAction(_ sender: Any) {
+        viewModel.seeMap()
+    }
 }
 
 

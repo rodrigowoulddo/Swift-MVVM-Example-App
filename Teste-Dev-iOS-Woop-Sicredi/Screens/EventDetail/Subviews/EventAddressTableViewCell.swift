@@ -27,7 +27,19 @@ class EventAddressTableViewCell: UITableViewCell, EventDetailTableViewCell {
     // MARK: - Configuration
     func configure(with event: Event) {
         
-        // TODO
+        addressLabel.alpha = 0
+        self.activityIndicator.isHidden = false
+        activityIndicator.startAnimating()
         
+        Geocoding.getPlace(event.latitude, event.longitude) {
+            (place) in
+            
+            self.addressLabel.text = place?.formattedAddress ?? "Localidade não encontrada"
+            self.activityIndicator.isHidden = true
+            
+            UIView.animate(withDuration: 0.5) {
+                self.addressLabel.alpha = 1
+            }
+        }
     }
 }

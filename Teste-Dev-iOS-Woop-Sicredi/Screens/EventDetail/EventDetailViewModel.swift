@@ -17,4 +17,11 @@ class EventDetailViewModel {
     // MARK: - Attributes
     weak var delegate: EventDetailViewModelDelegate?
     var event: Event?
+    
+    
+    // MARK: - Public Methods
+    public func seeMap() {    
+        guard let event = event else { return }
+        Geocoding.openMap(event.latitude, event.longitude, pinName: event.title)
+    }
 }

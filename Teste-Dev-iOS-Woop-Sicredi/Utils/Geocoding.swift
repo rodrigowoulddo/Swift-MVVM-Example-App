@@ -12,7 +12,6 @@ import CoreLocation
 
 struct Place {
     
-    let name: String?
     let street: String?
     let number: String?
     let city: String?
@@ -22,7 +21,6 @@ struct Place {
     var formattedAddress: String {
         
         var formattedAddress = ""
-        if let name = name { formattedAddress += "\(name), " }
         if let street = street { formattedAddress += "\(street), " }
         if let number = number { formattedAddress += "\(number), " }
         if let city = city { formattedAddress += "\(city)-" }
@@ -50,8 +48,17 @@ class Geocoding {
              
             debugPrint(clPlace)
             
-            let place = Place(name: clPlace.name, street: clPlace.thoroughfare, number: clPlace.subThoroughfare, city: clPlace.locality, state: clPlace.administrativeArea, country: clPlace.country)
+            let place = Place(street: clPlace.thoroughfare, number: clPlace.subThoroughfare, city: clPlace.locality, state: clPlace.administrativeArea, country: clPlace.country)
             completion(place)
         }
+    }
+    
+    public static func openMap(_ latitude: Double, _ longitude: Double, pinName: String? = nil) {
+        
+        let coordinate = CLLocationCoordinate2DMake(latitude, longitude)
+        let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+        mapItem.name = pinName
+        mapItem.openInMaps()
+
     }
 }
