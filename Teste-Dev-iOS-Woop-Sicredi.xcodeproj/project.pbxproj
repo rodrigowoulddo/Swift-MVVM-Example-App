@@ -70,7 +70,7 @@
 		49C721BECEA2969E0CA4CD76 /* Pods-Teste-Dev-iOS-Woop-SicrediTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste-Dev-iOS-Woop-SicrediTests.debug.xcconfig"; path = "Target Support Files/Pods-Teste-Dev-iOS-Woop-SicrediTests/Pods-Teste-Dev-iOS-Woop-SicrediTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7544D56B24942962009E71DD /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 		7544D56D2494296E009E71DD /* EventDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewModel.swift; sourceTree = "<group>"; };
-		75653DF8249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teste-Dev-iOS-Woop-Sicredi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75653DF8249291450029CCF2 /* Eventos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75653DFB249291450029CCF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75653DFD249291450029CCF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		75653DFF249291450029CCF2 /* EventListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListTableViewController.swift; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 		75653DF9249291450029CCF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75653DF8249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi.app */,
+				75653DF8249291450029CCF2 /* Eventos.app */,
 				75653E0E249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests.xctest */,
 			);
 			name = Products;
@@ -391,7 +391,7 @@
 			);
 			name = "Teste-Dev-iOS-Woop-Sicredi";
 			productName = "Teste-Dev-iOS-Woop-Sicredi";
-			productReference = 75653DF8249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi.app */;
+			productReference = 75653DF8249291450029CCF2 /* Eventos.app */;
 			productType = "com.apple.product-type.application";
 		};
 		75653E0D249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests */ = {
@@ -746,7 +746,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigowoulddo.Teste-Dev-iOS-Woop-Sicredi";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Eventos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -765,7 +765,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigowoulddo.Teste-Dev-iOS-Woop-Sicredi";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Eventos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
