@@ -16,6 +16,7 @@
 		75653E05249291480029CCF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75653E04249291480029CCF2 /* Assets.xcassets */; };
 		75653E08249291480029CCF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75653E06249291480029CCF2 /* LaunchScreen.storyboard */; };
 		75653E13249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */; };
+		756CE350249529BB009DC310 /* Geocoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756CE34F249529BB009DC310 /* Geocoding.swift */; };
 		757B439324942C41002E58BB /* EventImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439224942C41002E58BB /* EventImageTableViewCell.swift */; };
 		757B439524942CCF002E58BB /* EventDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439424942CCF002E58BB /* EventDetailsTableViewCell.swift */; };
 		757B439724942CF7002E58BB /* EventAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439624942CF7002E58BB /* EventAddressTableViewCell.swift */; };
@@ -74,6 +75,7 @@
 		75653E0E249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teste-Dev-iOS-Woop-SicrediTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste_Dev_iOS_Woop_SicrediTests.swift; sourceTree = "<group>"; };
 		75653E14249291480029CCF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756CE34F249529BB009DC310 /* Geocoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geocoding.swift; sourceTree = "<group>"; };
 		757B439224942C41002E58BB /* EventImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventImageTableViewCell.swift; sourceTree = "<group>"; };
 		757B439424942CCF002E58BB /* EventDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		757B439624942CF7002E58BB /* EventAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAddressTableViewCell.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 		75653DFA249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */ = {
 			isa = PBXGroup;
 			children = (
+				756CE34E249529A9009DC310 /* Utils */,
 				75E45D282492DA8A002CCA92 /* Extensions */,
 				75E45CFB2492BCE9002CCA92 /* Networking */,
 				75653E202492B3550029CCF2 /* App */,
@@ -234,6 +237,14 @@
 				75653E06249291480029CCF2 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		756CE34E249529A9009DC310 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				756CE34F249529BB009DC310 /* Geocoding.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		757B439124942BBF002E58BB /* Subviews */ = {
@@ -497,6 +508,7 @@
 			files = (
 				75E45D2C2492E04A002CCA92 /* String+Extensions.swift in Sources */,
 				75E45D202492D0D3002CCA92 /* Cupon.swift in Sources */,
+				756CE350249529BB009DC310 /* Geocoding.swift in Sources */,
 				75E45D362493019D002CCA92 /* UIImageView+Extensions.swift in Sources */,
 				75E45D332492F8B4002CCA92 /* Date+Extensions.swift in Sources */,
 				75E45D0D2492BCE9002CCA92 /* API.swift in Sources */,
