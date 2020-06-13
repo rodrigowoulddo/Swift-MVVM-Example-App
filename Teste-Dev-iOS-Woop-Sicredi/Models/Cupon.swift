@@ -12,5 +12,5 @@ struct Cupon: Decodable {
     
     let id: String
     let eventId: String
-    let discount: Int
+    let discount: Double
 }

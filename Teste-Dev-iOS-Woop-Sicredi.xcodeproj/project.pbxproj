@@ -17,6 +17,10 @@
 		75653E08249291480029CCF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75653E06249291480029CCF2 /* LaunchScreen.storyboard */; };
 		75653E13249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */; };
 		756CE350249529BB009DC310 /* Geocoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756CE34F249529BB009DC310 /* Geocoding.swift */; };
+		756CE355249541FA009DC310 /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756CE354249541FA009DC310 /* CheckinViewController.swift */; };
+		756CE35724954209009DC310 /* CheckinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756CE35624954209009DC310 /* CheckinViewModel.swift */; };
+		756CE35A24954467009DC310 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756CE35924954467009DC310 /* Validator.swift */; };
+		756CE35C249557C4009DC310 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756CE35B249557C4009DC310 /* Double+Extensions.swift */; };
 		757B439324942C41002E58BB /* EventImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439224942C41002E58BB /* EventImageTableViewCell.swift */; };
 		757B439524942CCF002E58BB /* EventDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439424942CCF002E58BB /* EventDetailsTableViewCell.swift */; };
 		757B439724942CF7002E58BB /* EventAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439624942CF7002E58BB /* EventAddressTableViewCell.swift */; };
@@ -76,6 +80,10 @@
 		75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste_Dev_iOS_Woop_SicrediTests.swift; sourceTree = "<group>"; };
 		75653E14249291480029CCF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		756CE34F249529BB009DC310 /* Geocoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geocoding.swift; sourceTree = "<group>"; };
+		756CE354249541FA009DC310 /* CheckinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
+		756CE35624954209009DC310 /* CheckinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinViewModel.swift; sourceTree = "<group>"; };
+		756CE35924954467009DC310 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		756CE35B249557C4009DC310 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		757B439224942C41002E58BB /* EventImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventImageTableViewCell.swift; sourceTree = "<group>"; };
 		757B439424942CCF002E58BB /* EventDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		757B439624942CF7002E58BB /* EventAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAddressTableViewCell.swift; sourceTree = "<group>"; };
@@ -216,6 +224,7 @@
 				75653E212492B3AA0029CCF2 /* Views */,
 				75E45D212492D24C002CCA92 /* EventList */,
 				7544D56A24942920009E71DD /* EventDetail */,
+				756CE353249541CF009DC310 /* Checkin */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -243,8 +252,18 @@
 			isa = PBXGroup;
 			children = (
 				756CE34F249529BB009DC310 /* Geocoding.swift */,
+				756CE35924954467009DC310 /* Validator.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		756CE353249541CF009DC310 /* Checkin */ = {
+			isa = PBXGroup;
+			children = (
+				756CE354249541FA009DC310 /* CheckinViewController.swift */,
+				756CE35624954209009DC310 /* CheckinViewModel.swift */,
+			);
+			path = Checkin;
 			sourceTree = "<group>";
 		};
 		757B439124942BBF002E58BB /* Subviews */ = {
@@ -326,6 +345,7 @@
 				75E45D322492F8B4002CCA92 /* Date+Extensions.swift */,
 				75E45D352493019D002CCA92 /* UIImageView+Extensions.swift */,
 				75E45D37249301FA002CCA92 /* UIImage+Extensions.swift */,
+				756CE35B249557C4009DC310 /* Double+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -508,14 +528,18 @@
 			files = (
 				75E45D2C2492E04A002CCA92 /* String+Extensions.swift in Sources */,
 				75E45D202492D0D3002CCA92 /* Cupon.swift in Sources */,
+				756CE35724954209009DC310 /* CheckinViewModel.swift in Sources */,
 				756CE350249529BB009DC310 /* Geocoding.swift in Sources */,
 				75E45D362493019D002CCA92 /* UIImageView+Extensions.swift in Sources */,
 				75E45D332492F8B4002CCA92 /* Date+Extensions.swift in Sources */,
 				75E45D0D2492BCE9002CCA92 /* API.swift in Sources */,
 				75E45D102492BD49002CCA92 /* EventEndpoints.swift in Sources */,
 				7544D56C24942962009E71DD /* EventDetailViewController.swift in Sources */,
+				756CE35C249557C4009DC310 /* Double+Extensions.swift in Sources */,
 				75653E00249291450029CCF2 /* EventListTableViewController.swift in Sources */,
 				757B439524942CCF002E58BB /* EventDetailsTableViewCell.swift in Sources */,
+				756CE355249541FA009DC310 /* CheckinViewController.swift in Sources */,
+				756CE35A24954467009DC310 /* Validator.swift in Sources */,
 				75E45D0B2492BCE9002CCA92 /* JSONEncoder+Extensions.swift in Sources */,
 				757B439B24943018002E58BB /* EventDetailCellType.swift in Sources */,
 				757B439924942D17002E58BB /* EventDescriptionTableViewCell.swift in Sources */,

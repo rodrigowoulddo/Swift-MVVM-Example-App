@@ -41,6 +41,23 @@ class EventDetailViewController: UIViewController {
     @IBAction func seeMapButtonAction(_ sender: Any) {
         viewModel.seeMap()
     }
+    
+    @IBAction func makeCheckinButtonAction(_ sender: Any) {
+        performSegue(withIdentifier: "checkin", sender: viewModel.event)
+    }
+    
+}
+
+
+// MARK: - Navigation
+extension EventDetailViewController {
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        guard let checkinViewController = segue.destination as? CheckinViewController else { return }
+        let event = sender as? Event
+        checkinViewController.viewModel.event = event
+    }
 }
 
 
