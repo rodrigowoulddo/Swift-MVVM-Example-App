@@ -10,7 +10,7 @@ import Foundation
 
 protocol EventListViewModelDelegate: class {
     func didLoadEvents()
-    func didFailedToLoadEvents(errorTitle: String, errorDescription: String)
+    func showEventLoadingErrorAlert(title: String, message: String)
     func openEventDetails(_ event: Event)
 }
 
@@ -48,8 +48,9 @@ class EventListViewModel {
             switch result {
             
                 case .failure(let error):
-                    self.delegate?.didFailedToLoadEvents(errorTitle: "Erro", errorDescription: error.localizedDescription)
-                    
+                    self.delegate?.showEventLoadingErrorAlert(title: "Erro", message: "Não foi possível carregar a lista de eventos.")
+                    print(error.localizedDescription)
+                
                 case.success(let events):
                     self.allEvents = events
                     self.delegate?.didLoadEvents()

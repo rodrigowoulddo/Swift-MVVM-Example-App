@@ -58,6 +58,8 @@ class CheckinViewController: UIViewController {
     // MARK: - Layout Configuration
     private func configure(_ textField: UITextField) {
         
+        textField.delegate = self
+        
         if let text = textField.text {
             textField.attributedText =
                 NSAttributedString(string: text,
@@ -130,5 +132,14 @@ extension CheckinViewController: CheckinViewModelDelegate {
     
     func didCheckin() {
         // TODO
+    }
+}
+
+// MARK: - UITextFieldDelegate
+extension CheckinViewController: UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 }

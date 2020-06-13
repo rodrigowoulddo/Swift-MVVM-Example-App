@@ -21,6 +21,7 @@
 		756CE35724954209009DC310 /* CheckinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756CE35624954209009DC310 /* CheckinViewModel.swift */; };
 		756CE35A24954467009DC310 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756CE35924954467009DC310 /* Validator.swift */; };
 		756CE35C249557C4009DC310 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756CE35B249557C4009DC310 /* Double+Extensions.swift */; };
+		756CE35E249562E7009DC310 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756CE35D249562E7009DC310 /* UIView+Extensions.swift */; };
 		757B439324942C41002E58BB /* EventImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439224942C41002E58BB /* EventImageTableViewCell.swift */; };
 		757B439524942CCF002E58BB /* EventDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439424942CCF002E58BB /* EventDetailsTableViewCell.swift */; };
 		757B439724942CF7002E58BB /* EventAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439624942CF7002E58BB /* EventAddressTableViewCell.swift */; };
@@ -84,6 +85,7 @@
 		756CE35624954209009DC310 /* CheckinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinViewModel.swift; sourceTree = "<group>"; };
 		756CE35924954467009DC310 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		756CE35B249557C4009DC310 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		756CE35D249562E7009DC310 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		757B439224942C41002E58BB /* EventImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventImageTableViewCell.swift; sourceTree = "<group>"; };
 		757B439424942CCF002E58BB /* EventDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		757B439624942CF7002E58BB /* EventAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAddressTableViewCell.swift; sourceTree = "<group>"; };
@@ -346,6 +348,7 @@
 				75E45D352493019D002CCA92 /* UIImageView+Extensions.swift */,
 				75E45D37249301FA002CCA92 /* UIImage+Extensions.swift */,
 				756CE35B249557C4009DC310 /* Double+Extensions.swift */,
+				756CE35D249562E7009DC310 /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -556,6 +559,7 @@
 				7544D56E2494296E009E71DD /* EventDetailViewModel.swift in Sources */,
 				75E45D082492BCE9002CCA92 /* TargeType+default.swift in Sources */,
 				75E45D232492D269002CCA92 /* EventListViewModel.swift in Sources */,
+				756CE35E249562E7009DC310 /* UIView+Extensions.swift in Sources */,
 				75E45D312492F65C002CCA92 /* EventTableViewCell.swift in Sources */,
 				75E45D1E2492D09D002CCA92 /* Person.swift in Sources */,
 				757B439724942CF7002E58BB /* EventAddressTableViewCell.swift in Sources */,

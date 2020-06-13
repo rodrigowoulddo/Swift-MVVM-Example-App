@@ -24,10 +24,19 @@ class EventTableViewCell: UITableViewCell {
     // MARK: - Lifecycle
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+        appearSmoothly()
     }
 
     // MARK: - Configuration
+    func appearSmoothly() {
+        
+        contentView.alpha = 0
+        
+        UIView.animate(withDuration: 0.4) {
+            self.contentView.alpha = 1
+        }
+    }
+    
     func configure(with event: Event) {
         
         titleLabel.text = event.title

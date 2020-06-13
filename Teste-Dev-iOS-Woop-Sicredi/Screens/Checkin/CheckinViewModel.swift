@@ -80,7 +80,7 @@ class CheckinViewModel {
             switch result {
                 
             case .failure(let error):
-                self.delegate?.showAlert(title: "Erro", message: "Não foi possível realizar o checkin")
+                self.delegate?.showAlert(title: "Erro", message: "Não foi possível realizar o checkin.")
                 print(error.localizedDescription)
                 
             case .success(_):
