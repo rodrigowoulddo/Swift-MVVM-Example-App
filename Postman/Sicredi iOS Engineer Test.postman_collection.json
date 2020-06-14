@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "55378ee0-c8d5-4db9-ba7d-40479f566f73",
-		"name": "Sicredi iOS Developer Test",
+		"name": "Sicredi iOS Engineer Test",
 		"description": "Request collection for the Sicredi iOS Developer Test app.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -28,7 +28,7 @@
 					"response": []
 				},
 				{
-					"name": "Get Single",
+					"name": "Get Single Event",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -55,10 +55,20 @@
 				{
 					"name": "Check Into Event",
 					"request": {
-						"method": "GET",
+						"method": "POST",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"eventId\": \"3\", \"name\": \"User Name\", \"email\": \"user@mail.com\" }"
+						},
 						"url": {
-							"raw": ""
+							"raw": "{{API_URL}}/checkin",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"checkin"
+							]
 						},
 						"description": "Checks user into event"
 					},
@@ -92,13 +102,13 @@
 	],
 	"variable": [
 		{
-			"id": "33875833-3e19-489e-9b79-2c1b9ac72e80",
+			"id": "6c0ca683-b41e-4748-84bf-8ffdedd09742",
 			"key": "EVENT_ID",
 			"value": "1",
 			"type": "string"
 		},
 		{
-			"id": "aec47881-693e-4d22-845e-493cc9aaa8c1",
+			"id": "a6d107b1-3161-4d7c-8ffc-853fcb40fefa",
 			"key": "API_URL",
 			"value": "http://5b840ba5db24a100142dcd8c.mockapi.io/api",
 			"type": "string"
