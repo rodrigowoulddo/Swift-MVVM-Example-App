@@ -22,13 +22,13 @@ git clone https://github.com/rodrigowoulddo/Teste-Dev-iOS-Woop-Sicredi
 cd Teste-Dev-iOS-Woop-Sicredi
 ```
 
-Then install the third part libraries
+Then install third-party libraries
 
 ```
 pod install
 ```
 
-And finally open it on XCode to launch in any device
+And finally, open it on XCode to launch in any device
 
 ```
 xed .
