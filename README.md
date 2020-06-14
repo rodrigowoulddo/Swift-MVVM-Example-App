@@ -11,10 +11,7 @@ I built it with the Model View View-Model architecture (MVVM) for it keeps the c
 
 ## Screenshots
 
-<img src="Screenshots/event-list.png" alt="alt text" width="260">
-<img src="Screenshots/event-detail.png" alt="alt text" width="260">
-<img src="Screenshots/event-checkin.png" alt="alt text" width="260">
-
+<img src="Screenshots/event-list.png" alt="alt text" width="260"> <img src="Screenshots/event-detail.png" alt="alt text" width="260"> <img src="Screenshots/event-checkin.png" alt="alt text" width="260">
 
 ## Instalation
 
