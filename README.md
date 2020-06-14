@@ -1,4 +1,4 @@
-# Sigredi iOS Engineer Test
+# Sicredi iOS Engineer Test
 ![](https://badgen.net/badge/iOS/13/blue) ![](https://badgen.net/badge/Swift/5/orange)
 ## Information
 This is a sample app for an iOS engineer job at Sicredi - Brazil. The app features are:
