@@ -78,7 +78,7 @@ E por fim, abra o projeto no XCode e instale em qualquer dispositivo ou simulado
 xed .
 ```
 
-## EFunconalidades extras
+## Funcionalidades extras
 * Busca na lista de eventos
 * Puxe para recarregar na lista de eventos
 * Carregamento suave das células com animação
