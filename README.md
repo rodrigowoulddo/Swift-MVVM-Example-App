@@ -1,10 +1,10 @@
-# Sicredi iOS Engineer Test
+# Swift MVVM Example App
 ![](https://badgen.net/badge/iOS/13/blue) ![](https://badgen.net/badge/Swift/5/orange)
 
 `Versão em português abaixo.`
 
 ## Information
-This is a sample app for an iOS engineer job at Sicredi - Brazil. The app features are:
+This is a sample app for an iOS engineer job in Brazil. The app features are:
 
 * An event list
 * Event details
@@ -49,7 +49,7 @@ xed .
 _____
 
 ## Informação
-Este é um app de exemplo para a vaga de desenvolvedor iOS no Sicredi - Brasil. As funcionalidades do app são:
+Este é um app de exemplo para uma vaga de desenvolvedor iOS no Brasil. As funcionalidades do app são:
 
 * Lista de eventos
 * Detalhes do evento
