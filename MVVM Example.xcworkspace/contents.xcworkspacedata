@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/rodrigofgiglio/Desktop/Swift-MVVM-Example-App/MVVM Example.xcodeproj">
+      location = "group:MVVM Example.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

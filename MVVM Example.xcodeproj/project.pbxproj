@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64D2BCCAF0A08A6A7287E3E1 /* Pods_MVVM_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF592D03C76619C3ADC5BF0F /* Pods_MVVM_ExampleTests.framework */; };
 		7544D56C24942962009E71DD /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7544D56B24942962009E71DD /* EventDetailViewController.swift */; };
 		7544D56E2494296E009E71DD /* EventDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7544D56D2494296E009E71DD /* EventDetailViewModel.swift */; };
 		75653DFC249291450029CCF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75653DFB249291450029CCF2 /* AppDelegate.swift */; };
@@ -49,8 +50,7 @@
 		75E45D332492F8B4002CCA92 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D322492F8B4002CCA92 /* Date+Extensions.swift */; };
 		75E45D362493019D002CCA92 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D352493019D002CCA92 /* UIImageView+Extensions.swift */; };
 		75E45D38249301FA002CCA92 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45D37249301FA002CCA92 /* UIImage+Extensions.swift */; };
-		A05715BFC9159424F40873A7 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C77FEE1F937D0ECB1568B2 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework */; };
-		FAC38DEE4C5C94D27538BA1D /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B0EE68A0C85F88AFD3DAD7 /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework */; };
+		CD3657C95F8A831234695DD5 /* Pods_MVVM_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3595204A5D6BCDAA3E27B0C /* Pods_MVVM_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +66,10 @@
 /* Begin PBXFileReference section */
 		047AE541758EAC1E4F2E0031 /* Pods-Teste-Dev-iOS-Woop-Sicredi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste-Dev-iOS-Woop-Sicredi.release.xcconfig"; path = "Target Support Files/Pods-Teste-Dev-iOS-Woop-Sicredi/Pods-Teste-Dev-iOS-Woop-Sicredi.release.xcconfig"; sourceTree = "<group>"; };
 		06F94330D5A797B488A3B7F3 /* Pods-Teste-Dev-iOS-Woop-SicrediTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste-Dev-iOS-Woop-SicrediTests.release.xcconfig"; path = "Target Support Files/Pods-Teste-Dev-iOS-Woop-SicrediTests/Pods-Teste-Dev-iOS-Woop-SicrediTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F921DFEC60AD575BE1C9A8E /* Pods-MVVM ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM ExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-MVVM ExampleTests/Pods-MVVM ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		450CBB74F79019CF1AF1D954 /* Pods-Teste-Dev-iOS-Woop-Sicredi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste-Dev-iOS-Woop-Sicredi.debug.xcconfig"; path = "Target Support Files/Pods-Teste-Dev-iOS-Woop-Sicredi/Pods-Teste-Dev-iOS-Woop-Sicredi.debug.xcconfig"; sourceTree = "<group>"; };
 		49C721BECEA2969E0CA4CD76 /* Pods-Teste-Dev-iOS-Woop-SicrediTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste-Dev-iOS-Woop-SicrediTests.debug.xcconfig"; path = "Target Support Files/Pods-Teste-Dev-iOS-Woop-SicrediTests/Pods-Teste-Dev-iOS-Woop-SicrediTests.debug.xcconfig"; sourceTree = "<group>"; };
+		603048078059579A09C83BCF /* Pods-MVVM ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-MVVM ExampleTests/Pods-MVVM ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		7544D56B24942962009E71DD /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 		7544D56D2494296E009E71DD /* EventDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewModel.swift; sourceTree = "<group>"; };
 		75653DF8249291450029CCF2 /* Eventos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,7 +80,7 @@
 		75653E04249291480029CCF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75653E07249291480029CCF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75653E09249291480029CCF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75653E0E249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teste-Dev-iOS-Woop-SicrediTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75653E0E249291480029CCF2 /* MVVM ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste_Dev_iOS_Woop_SicrediTests.swift; sourceTree = "<group>"; };
 		75653E14249291480029CCF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		756CE34F249529BB009DC310 /* Geocoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geocoding.swift; sourceTree = "<group>"; };
@@ -114,8 +116,10 @@
 		75E45D322492F8B4002CCA92 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		75E45D352493019D002CCA92 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		75E45D37249301FA002CCA92 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
-		77B0EE68A0C85F88AFD3DAD7 /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_Dev_iOS_Woop_SicrediTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89C77FEE1F937D0ECB1568B2 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_Dev_iOS_Woop_Sicredi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFBF668C6440BB0E9F964C8 /* Pods-MVVM Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM Example.debug.xcconfig"; path = "Target Support Files/Pods-MVVM Example/Pods-MVVM Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A1A62CF323A65AFFB85CBBCA /* Pods-MVVM Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM Example.release.xcconfig"; path = "Target Support Files/Pods-MVVM Example/Pods-MVVM Example.release.xcconfig"; sourceTree = "<group>"; };
+		AF592D03C76619C3ADC5BF0F /* Pods_MVVM_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3595204A5D6BCDAA3E27B0C /* Pods_MVVM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A05715BFC9159424F40873A7 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework in Frameworks */,
+				CD3657C95F8A831234695DD5 /* Pods_MVVM_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC38DEE4C5C94D27538BA1D /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework in Frameworks */,
+				64D2BCCAF0A08A6A7287E3E1 /* Pods_MVVM_ExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +149,10 @@
 				047AE541758EAC1E4F2E0031 /* Pods-Teste-Dev-iOS-Woop-Sicredi.release.xcconfig */,
 				49C721BECEA2969E0CA4CD76 /* Pods-Teste-Dev-iOS-Woop-SicrediTests.debug.xcconfig */,
 				06F94330D5A797B488A3B7F3 /* Pods-Teste-Dev-iOS-Woop-SicrediTests.release.xcconfig */,
+				8EFBF668C6440BB0E9F964C8 /* Pods-MVVM Example.debug.xcconfig */,
+				A1A62CF323A65AFFB85CBBCA /* Pods-MVVM Example.release.xcconfig */,
+				2F921DFEC60AD575BE1C9A8E /* Pods-MVVM ExampleTests.debug.xcconfig */,
+				603048078059579A09C83BCF /* Pods-MVVM ExampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -152,8 +160,8 @@
 		66C8A11135A45832FBBF1214 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				89C77FEE1F937D0ECB1568B2 /* Pods_Teste_Dev_iOS_Woop_Sicredi.framework */,
-				77B0EE68A0C85F88AFD3DAD7 /* Pods_Teste_Dev_iOS_Woop_SicrediTests.framework */,
+				D3595204A5D6BCDAA3E27B0C /* Pods_MVVM_Example.framework */,
+				AF592D03C76619C3ADC5BF0F /* Pods_MVVM_ExampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,8 +179,8 @@
 		75653DEF249291450029CCF2 = {
 			isa = PBXGroup;
 			children = (
-				75653DFA249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */,
-				75653E11249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests */,
+				75653DFA249291450029CCF2 /* MVVM Example */,
+				75653E11249291480029CCF2 /* MVVM ExampleTests */,
 				75653DF9249291450029CCF2 /* Products */,
 				3B5517B820C444318688DD3A /* Pods */,
 				66C8A11135A45832FBBF1214 /* Frameworks */,
@@ -183,12 +191,12 @@
 			isa = PBXGroup;
 			children = (
 				75653DF8249291450029CCF2 /* Eventos.app */,
-				75653E0E249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests.xctest */,
+				75653E0E249291480029CCF2 /* MVVM ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		75653DFA249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */ = {
+		75653DFA249291450029CCF2 /* MVVM Example */ = {
 			isa = PBXGroup;
 			children = (
 				757926142495779700D68911 /* Animations */,
@@ -200,17 +208,17 @@
 				75653E1D2492B3330029CCF2 /* Models */,
 				75653E04249291480029CCF2 /* Assets.xcassets */,
 			);
-			path = "Teste-Dev-iOS-Woop-Sicredi";
+			path = "MVVM Example";
 			sourceTree = "<group>";
 		};
-		75653E11249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests */ = {
+		75653E11249291480029CCF2 /* MVVM ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				75653E12249291480029CCF2 /* Teste_Dev_iOS_Woop_SicrediTests.swift */,
 				75E45D2D2492E2AB002CCA92 /* EventFilterTests.swift */,
 				75653E14249291480029CCF2 /* Info.plist */,
 			);
-			path = "Teste-Dev-iOS-Woop-SicrediTests";
+			path = "MVVM ExampleTests";
 			sourceTree = "<group>";
 		};
 		75653E1D2492B3330029CCF2 /* Models */ = {
@@ -375,9 +383,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		75653DF7249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */ = {
+		75653DF7249291450029CCF2 /* MVVM Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75653E17249291480029CCF2 /* Build configuration list for PBXNativeTarget "Teste-Dev-iOS-Woop-Sicredi" */;
+			buildConfigurationList = 75653E17249291480029CCF2 /* Build configuration list for PBXNativeTarget "MVVM Example" */;
 			buildPhases = (
 				A4BC766617B4DE4079E3F6EA /* [CP] Check Pods Manifest.lock */,
 				75653DF4249291450029CCF2 /* Sources */,
@@ -389,14 +397,14 @@
 			);
 			dependencies = (
 			);
-			name = "Teste-Dev-iOS-Woop-Sicredi";
+			name = "MVVM Example";
 			productName = "Teste-Dev-iOS-Woop-Sicredi";
 			productReference = 75653DF8249291450029CCF2 /* Eventos.app */;
 			productType = "com.apple.product-type.application";
 		};
-		75653E0D249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests */ = {
+		75653E0D249291480029CCF2 /* MVVM ExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75653E1A249291480029CCF2 /* Build configuration list for PBXNativeTarget "Teste-Dev-iOS-Woop-SicrediTests" */;
+			buildConfigurationList = 75653E1A249291480029CCF2 /* Build configuration list for PBXNativeTarget "MVVM ExampleTests" */;
 			buildPhases = (
 				F0305021EE65BBF4FAF1A9C6 /* [CP] Check Pods Manifest.lock */,
 				75653E0A249291480029CCF2 /* Sources */,
@@ -408,9 +416,9 @@
 			dependencies = (
 				75653E10249291480029CCF2 /* PBXTargetDependency */,
 			);
-			name = "Teste-Dev-iOS-Woop-SicrediTests";
+			name = "MVVM ExampleTests";
 			productName = "Teste-Dev-iOS-Woop-SicrediTests";
-			productReference = 75653E0E249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests.xctest */;
+			productReference = 75653E0E249291480029CCF2 /* MVVM ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -432,7 +440,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 75653DF3249291450029CCF2 /* Build configuration list for PBXProject "Teste-Dev-iOS-Woop-Sicredi" */;
+			buildConfigurationList = 75653DF3249291450029CCF2 /* Build configuration list for PBXProject "MVVM Example" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -445,8 +453,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				75653DF7249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */,
-				75653E0D249291480029CCF2 /* Teste-Dev-iOS-Woop-SicrediTests */,
+				75653DF7249291450029CCF2 /* MVVM Example */,
+				75653E0D249291480029CCF2 /* MVVM ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -479,15 +487,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Teste-Dev-iOS-Woop-Sicredi/Pods-Teste-Dev-iOS-Woop-Sicredi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MVVM Example/Pods-MVVM Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Teste-Dev-iOS-Woop-Sicredi/Pods-Teste-Dev-iOS-Woop-Sicredi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MVVM Example/Pods-MVVM Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teste-Dev-iOS-Woop-Sicredi/Pods-Teste-Dev-iOS-Woop-Sicredi-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVM Example/Pods-MVVM Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A4BC766617B4DE4079E3F6EA /* [CP] Check Pods Manifest.lock */ = {
@@ -505,7 +513,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Teste-Dev-iOS-Woop-Sicredi-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MVVM Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -527,7 +535,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Teste-Dev-iOS-Woop-SicrediTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MVVM ExampleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -594,7 +602,7 @@
 /* Begin PBXTargetDependency section */
 		75653E10249291480029CCF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 75653DF7249291450029CCF2 /* Teste-Dev-iOS-Woop-Sicredi */;
+			target = 75653DF7249291450029CCF2 /* MVVM Example */;
 			targetProxy = 75653E0F249291480029CCF2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -735,17 +743,17 @@
 		};
 		75653E18249291480029CCF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 450CBB74F79019CF1AF1D954 /* Pods-Teste-Dev-iOS-Woop-Sicredi.debug.xcconfig */;
+			baseConfigurationReference = 8EFBF668C6440BB0E9F964C8 /* Pods-MVVM Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66X93R6BN6;
-				INFOPLIST_FILE = "Teste-Dev-iOS-Woop-Sicredi/App/Info.plist";
+				INFOPLIST_FILE = "MVVM Example/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigowoulddo.Teste-Dev-iOS-Woop-Sicredi";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigowoulddo.MVVM-Example";
 				PRODUCT_NAME = Eventos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -754,17 +762,17 @@
 		};
 		75653E19249291480029CCF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 047AE541758EAC1E4F2E0031 /* Pods-Teste-Dev-iOS-Woop-Sicredi.release.xcconfig */;
+			baseConfigurationReference = A1A62CF323A65AFFB85CBBCA /* Pods-MVVM Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66X93R6BN6;
-				INFOPLIST_FILE = "Teste-Dev-iOS-Woop-Sicredi/App/Info.plist";
+				INFOPLIST_FILE = "MVVM Example/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigowoulddo.Teste-Dev-iOS-Woop-Sicredi";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigowoulddo.MVVM-Example";
 				PRODUCT_NAME = Eventos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -773,7 +781,7 @@
 		};
 		75653E1B249291480029CCF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49C721BECEA2969E0CA4CD76 /* Pods-Teste-Dev-iOS-Woop-SicrediTests.debug.xcconfig */;
+			baseConfigurationReference = 2F921DFEC60AD575BE1C9A8E /* Pods-MVVM ExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -790,13 +798,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teste-Dev-iOS-Woop-Sicredi.app/Teste-Dev-iOS-Woop-Sicredi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM Example.app/MVVM Example";
 			};
 			name = Debug;
 		};
 		75653E1C249291480029CCF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06F94330D5A797B488A3B7F3 /* Pods-Teste-Dev-iOS-Woop-SicrediTests.release.xcconfig */;
+			baseConfigurationReference = 603048078059579A09C83BCF /* Pods-MVVM ExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -813,14 +821,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teste-Dev-iOS-Woop-Sicredi.app/Teste-Dev-iOS-Woop-Sicredi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM Example.app/MVVM Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		75653DF3249291450029CCF2 /* Build configuration list for PBXProject "Teste-Dev-iOS-Woop-Sicredi" */ = {
+		75653DF3249291450029CCF2 /* Build configuration list for PBXProject "MVVM Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75653E15249291480029CCF2 /* Debug */,
@@ -829,7 +837,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75653E17249291480029CCF2 /* Build configuration list for PBXNativeTarget "Teste-Dev-iOS-Woop-Sicredi" */ = {
+		75653E17249291480029CCF2 /* Build configuration list for PBXNativeTarget "MVVM Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75653E18249291480029CCF2 /* Debug */,
@@ -838,7 +846,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75653E1A249291480029CCF2 /* Build configuration list for PBXNativeTarget "Teste-Dev-iOS-Woop-SicrediTests" */ = {
+		75653E1A249291480029CCF2 /* Build configuration list for PBXNativeTarget "MVVM ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75653E1B249291480029CCF2 /* Debug */,
