@@ -14,3 +14,7 @@ struct CheckinInput: Encodable {
     let name: String
     let email: String
 }
+
+struct CheckinResponse: Decodable {
+    let code: String
+}

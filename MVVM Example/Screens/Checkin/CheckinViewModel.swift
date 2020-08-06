@@ -76,7 +76,7 @@ class CheckinViewModel {
         let checkinInput = CheckinInput(eventId: eventId, name: name, email: email)
         
         service.request(.checkin(input: checkinInput)) {
-            (result: Result<String,Error>) in
+            (result: Result<CheckinResponse,Error>) in
             
             switch result {
                 
@@ -84,9 +84,14 @@ class CheckinViewModel {
                 self.delegate?.showAlert(title: "Erro", message: "Não foi possível realizar o checkin.")
                 print(error.localizedDescription)
                 
-            case .success(_):
-                self.delegate?.didCheckin()
+            case .success(let checkinResponse):
                 
+                if checkinResponse.code == "200" {
+                    self.delegate?.didCheckin()
+                }
+                else {
+                    self.delegate?.showAlert(title: "Erro", message: "Não foi possível realizar o checkin.")
+                }
             }
             
             self.delegate?.stopLoading()
