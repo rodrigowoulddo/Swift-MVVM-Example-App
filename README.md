@@ -45,6 +45,7 @@ xed .
 * Smooth and async image loading
 * Integration with Apple Maps
 * Self-sizing TableViewCells
+* CollectionView inside TableViewCell
 
 _____
 
@@ -86,3 +87,4 @@ xed .
 * Carregamento suave e cacheado de imagens
 * Integração com Apple Maps
 * TableViewCells com tamanho automático
+* CollectionView dentro de uma TableViewCell
