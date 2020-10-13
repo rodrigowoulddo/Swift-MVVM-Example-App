@@ -19,7 +19,7 @@ enum API {
     var url: String {
         
         switch self {
-            case .development: return "http://5b840ba5db24a100142dcd8c.mockapi.io/api"
+            case .development: return "http://5f5a8f24d44d640016169133.mockapi.io/api"
         }
     }
 }

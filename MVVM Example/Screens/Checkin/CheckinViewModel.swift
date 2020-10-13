@@ -132,6 +132,6 @@ class CheckinViewModel {
     private func validateCupon(_ cupon: String?, on event: Event) -> Cupon? {
         
         guard let cupon = cupon else { return  nil }
-        return event.cupons.filter({ $0.id == cupon }).first
+        return event.cupons?.filter({ $0.id == cupon }).first
     }
 }
