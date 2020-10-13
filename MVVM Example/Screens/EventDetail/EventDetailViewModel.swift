@@ -19,6 +19,21 @@ class EventDetailViewModel {
     var event: Event?
     
     
+    // MARK: - Computed Attributes
+    var shouldDisplayParticipants: Bool {
+        guard let event = event else { return false }
+        return !event.people.isEmpty
+    }
+    
+    var displayedInformation: [EventDetailCellType] {
+        if shouldDisplayParticipants {
+            return [.image, .details, .address, .participants, .description]
+        } else {
+            return [.image, .details, .address, .description]
+        }
+    }
+    
+    
     // MARK: - Public Methods
     public func seeMap() {    
         guard let event = event else { return }

@@ -71,13 +71,14 @@ extension EventDetailViewController: EventDetailViewModelDelegate {
 extension EventDetailViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return viewModel.displayedInformation.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        let cellType = viewModel.displayedInformation[indexPath.row]
+        
         guard
-            let cellType = EventDetailCellType.atIndex(indexPath.row),
             let cell = tableView.dequeueReusableCell(withIdentifier: cellType.identifier) as? EventDetailTableViewCell,
             let event = viewModel.event
             
