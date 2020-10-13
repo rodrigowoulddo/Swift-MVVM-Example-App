@@ -21,8 +21,8 @@ I built it with the Model View View-Model architecture (MVVM) for it keeps the c
 First of all, download this repo
 
 ```
-git clone https://github.com/rodrigowoulddo/Teste-Dev-iOS-Woop-Sicredi
-cd Teste-Dev-iOS-Woop-Sicredi
+git clone https://github.com/rodrigowoulddo/Swift-MVVM-Example-App
+cd Swift-MVVM-Example-App
 ```
 
 Then install third-party libraries
@@ -63,8 +63,8 @@ Construí o app com a arquitetura Model View View-Model architecture (MVVM) pois
 Primeiro, faça o download do repositório
 
 ```
-git clone https://github.com/rodrigowoulddo/Teste-Dev-iOS-Woop-Sicredi
-cd Teste-Dev-iOS-Woop-Sicredi
+git clone https://github.com/rodrigowoulddo/Swift-MVVM-Example-App
+cd Swift-MVVM-Example-App
 ```
 
 Depois instale as libs de terceiros
