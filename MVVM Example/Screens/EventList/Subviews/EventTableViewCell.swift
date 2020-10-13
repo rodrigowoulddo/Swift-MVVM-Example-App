@@ -42,7 +42,7 @@ class EventTableViewCell: UITableViewCell {
         titleLabel.text = event.title
         dateLabel.text = event.date.formattedString
         descriptionLabel.text = event.description
-        priceLabel.text = "R$ \(event.price)"
+        priceLabel.text = PriceFormatter.format(event.price)
         imageImageView.setImage(from: event.image, withActivityIndicator: false, withFade: true, fadeDuration: .Normal)
         imageImageView.layer.cornerRadius = 8
 

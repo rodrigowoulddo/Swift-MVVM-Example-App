@@ -50,7 +50,7 @@ class CheckinViewModel {
         if let validCupon = validCupon {
             
             let adjustedPrice = applyDiscount(validCupon.discount, atPrice: event.price)
-            delegate?.didApplyCuppon(oldPrice: "R$ \(event.price)", newPrice: "R$ \(adjustedPrice.formatted)")
+            delegate?.didApplyCuppon(oldPrice: PriceFormatter.format(event.price), newPrice: PriceFormatter.format(adjustedPrice))
         }
         else {
             

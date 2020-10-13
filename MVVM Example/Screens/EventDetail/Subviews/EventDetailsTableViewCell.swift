@@ -29,6 +29,6 @@ class EventDetailsTableViewCell: UITableViewCell, EventDetailTableViewCell {
         
         dateLabel.text = event.date.formattedString
         titleLabel.text = event.title
-        priceLabel.text = "R$ \(event.price)"
+        priceLabel.text = PriceFormatter.format(event.price)
     }
 }

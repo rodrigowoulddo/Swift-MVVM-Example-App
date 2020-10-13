@@ -51,7 +51,7 @@ class CheckinViewController: UIViewController {
         titleLabel.text = event.title
         dateLabel.text = event.date.formattedString
         oldPriceLabel.isHidden = true
-        priceLabel.text = "R$ \(event.price)"
+        priceLabel.text = PriceFormatter.format(event.price)
     }
     
     private func setupTextFields() {

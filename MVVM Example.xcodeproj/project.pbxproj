@@ -29,6 +29,7 @@
 		757B439724942CF7002E58BB /* EventAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439624942CF7002E58BB /* EventAddressTableViewCell.swift */; };
 		757B439924942D17002E58BB /* EventDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439824942D17002E58BB /* EventDescriptionTableViewCell.swift */; };
 		757B439B24943018002E58BB /* EventDetailCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B439A24943018002E58BB /* EventDetailCellType.swift */; };
+		759387B9253643A0007F014B /* PriceFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759387B8253643A0007F014B /* PriceFormatter.swift */; };
 		75E45D062492BCE9002CCA92 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45CFD2492BCE9002CCA92 /* ApiError.swift */; };
 		75E45D072492BCE9002CCA92 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45CFE2492BCE9002CCA92 /* Service.swift */; };
 		75E45D082492BCE9002CCA92 /* TargeType+default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E45CFF2492BCE9002CCA92 /* TargeType+default.swift */; };
@@ -95,6 +96,7 @@
 		757B439624942CF7002E58BB /* EventAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAddressTableViewCell.swift; sourceTree = "<group>"; };
 		757B439824942D17002E58BB /* EventDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionTableViewCell.swift; sourceTree = "<group>"; };
 		757B439A24943018002E58BB /* EventDetailCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailCellType.swift; sourceTree = "<group>"; };
+		759387B8253643A0007F014B /* PriceFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceFormatter.swift; sourceTree = "<group>"; };
 		75E45CFD2492BCE9002CCA92 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		75E45CFE2492BCE9002CCA92 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		75E45CFF2492BCE9002CCA92 /* TargeType+default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TargeType+default.swift"; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 			children = (
 				756CE34F249529BB009DC310 /* Geocoding.swift */,
 				756CE35924954467009DC310 /* Validator.swift */,
+				759387B8253643A0007F014B /* PriceFormatter.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -557,6 +560,7 @@
 				75E45D332492F8B4002CCA92 /* Date+Extensions.swift in Sources */,
 				75E45D0D2492BCE9002CCA92 /* API.swift in Sources */,
 				75E45D102492BD49002CCA92 /* EventEndpoints.swift in Sources */,
+				759387B9253643A0007F014B /* PriceFormatter.swift in Sources */,
 				7544D56C24942962009E71DD /* EventDetailViewController.swift in Sources */,
 				756CE35C249557C4009DC310 /* Double+Extensions.swift in Sources */,
 				75653E00249291450029CCF2 /* EventListTableViewController.swift in Sources */,
